@@ -10,7 +10,7 @@ Integrantes:
     Tiago Oliveira Macedo;
     Yuri Durra.
 
-Reposirórios:
+Repositórios:
 
     Arthur Peixoto Schiller: https://github.com/Arthur-jpg/react-base-project;
     Franc Wangcheng: https://github.com/FRANCWANG/react-base-project;
