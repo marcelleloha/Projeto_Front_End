@@ -8,7 +8,7 @@ Integrantes:
     Franc Wangcheng;
     Marcelle Lohane Gonçalves;
     Tiago Oliveira Macedo;
-    Yuri Durra;
+    Yuri Durra.
 
 Reposirórios:
 
