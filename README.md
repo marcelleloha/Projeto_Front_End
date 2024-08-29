@@ -18,5 +18,10 @@ Reposirórios:
     Tiago Oliveira Macedo: https://github.com/tiagoprog/react-base-project;
     Yuri Durra: https://github.com/ydurra/react-base-project.
     
+Propósitos:
+
+    Disponibilizar um portifólio de projetos realizados por alunos do IBMEC para que futuros contratantes possam observa-los de forma atrativa.
+
+
 
 
