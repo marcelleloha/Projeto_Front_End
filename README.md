@@ -20,7 +20,9 @@ Reposirórios:
     
 Propósitos:
 
-    Disponibilizar um portifólio de projetos realizados por alunos do IBMEC para que futuros contratantes possam observa-los de forma atrativa.
+    Disponibilizar um portifólio de projetos realizados 
+    por alunos do IBMEC para que futuros contratantes 
+    possam observa-los de forma atrativa.
 
 
 
