@@ -14,6 +14,7 @@ Reposirórios:
     Franc Wangcheng: https://github.com/FRANCWANG/react-base-project;
     Marcelle Lohane Gonçalves: https://github.com/marcelleloha/react-base-project;
     Tiago Oliveira Macedo: https://github.com/tiagoprog/react-base-project;
-    Yuri Durra: https://github.com/ydurra/react-base-project;
+    Yuri Durra: https://github.com/ydurra/react-base-project.
+    
 
 
