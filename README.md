@@ -10,6 +10,7 @@ Integrantes:
     Yuri Durra;
 
 Reposirórios:
+
     Arthur Peixoto Schiller: https://github.com/Arthur-jpg/react-base-project;
     Franc Wangcheng: https://github.com/FRANCWANG/react-base-project;
     Marcelle Lohane Gonçalves: https://github.com/marcelleloha/react-base-project;
