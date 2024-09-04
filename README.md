@@ -38,6 +38,7 @@ Futuros usuários, sendo eles: alunos do ibmec, contratantes, futuros alunos do 
 - How (Como):
 Por meio da organização de um portifólio de projetos de alunos no IBMEC.
 - How Much (Quanto):
+O tempo e o esforço dedicados para o desenvolvimento do sistema.
 
 
 
