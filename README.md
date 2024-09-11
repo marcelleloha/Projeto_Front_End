@@ -48,6 +48,8 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 - O sistema deve possuir uma aba administrativa
 - O sistema deve permitir a busca de projetos com filtros
 - O sistema deve permitir a busca de projetos com uma barra de pesquisa
+- O sistema deve possuir um botão de limpar filtros
+
 # Requisitos não funcionais
 - O sistema deve ser rápido
 - O sistema deve ser estável
