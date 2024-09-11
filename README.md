@@ -42,19 +42,26 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 
 # Requisitos funcionais
 - O sistema deve listar os projetos
-- O sistema deve ter um scroll view
+- O sistema deve ter um scroll view para dar espaço a todos os projetos feitos por alunos
 - Ao clicar no projeto o sistema deve fornecer o detalhamento do mesmo
 - O sistema deve ser acessível a qualquer pessoa
 - O sistema deve possuir uma aba administrativa
 - O sistema deve permitir a busca de projetos com filtros
 - O sistema deve permitir a busca de projetos com uma barra de pesquisa
 - O sistema deve possuir um botão de limpar filtros
+- O sistema deve possuir a descrição dos projetos
+- O sistema deve possibilitar o administrador fazer alterações na descrição do projeto 
+- O sistema deve autorizar somente o administrador a adicionar e fazer mudanças nos projetos e no portifólio 
+- O sistema deve possuir o email dos integrandes do projeto
+- O sistema deve possuir a capacidade de mais de um idoma para possíveis usuários estrangeiros
 
 # Requisitos não funcionais
 - O sistema deve ser rápido
 - O sistema deve ser estável
-- O sistema deve pussir uma interface intuitiva e fácil de utilizar
+- O sistema deve possuir uma interface intuitiva e fácil de utilizar
 - O sistema deve possuir um design atrativo 
+- O sistema deve possuir otimizações para o tempo de carregamento 
+- O sistema deve possuir a identidade visual do IBMEC
 
 
 
