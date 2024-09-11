@@ -40,6 +40,10 @@ Por meio da organização de um portifólio de projetos de alunos no IBMEC.
 - How Much (Quanto):
 O tempo e o esforço dedicados para o desenvolvimento do sistema.
 
+# Requisitos funcionais
+
+# Requisitos não funcionais
+
 
 
 
