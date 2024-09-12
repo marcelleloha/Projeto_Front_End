@@ -1,0 +1,19 @@
+- Login do administrador
+    - Vai ser um email e uma senha
+- Informação dos alunos
+    - O vínculo que o aluno tinha com a instituição durante a realização do projeto
+    - Nome, perfil, curso
+- Organização da listagem do projeto
+    - A imagem vai ser usado para exibir o projeto na págia de listagem
+    - Inicio da descrição do projeto no card
+    - Se eu conseguir mostrar alguam informação sem escrever seria legal -> simbolo das tecnologias usadas no projeto
+- O CLIENTE QUER PÁGINAS
+- Sistema de rankeamento?
+- Quais são as áreas/páginas
+    - Tem que ter uma área que diga que fomos nós que fizemos o sistema
+    - Tem que ter as próprias referências -> página que tem os projetos listados (portifólio)
+    - Depois que clicar em um projeto voê tem que votlar para a página que você estava 
+    - Como se fosse um módulo da página do ibmec
+    - Não tem o link para o administrador fazer o login, mas tem que ter um link que se o administrador tiver logado ele conseguir fazer logout
+    
+- Posso fazer uma página     
