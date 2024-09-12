@@ -55,14 +55,9 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 - O sistema deve possuir a capacidade de mais de um idioma para possíveis usuários estrangeiros.
 
 # Requisitos não funcionais:
-- O sistema deve ser rápido;
-- O sistema deve ser estável;
-- O sistema deve possuir uma interface intuitiva e fácil de utilizar;
-- O sistema deve possuir um design atrativo;
-- O sistema deve possuir otimizações para o tempo de carregamento; 
 - O sistema deve possuir a identidade visual do IBMEC;
 - O sistema deve ser responsivo para todos os tipos de aparelhos;
-- O sistema será contruído com um banco de dados não relacional como MongoDB.
+- O sistema será construído com um banco de dados não relacional como MongoDB.
 
 
 
