@@ -63,7 +63,7 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 - O sistema deve possuir otimizações para o tempo de carregamento 
 - O sistema deve possuir a identidade visual do IBMEC
 - O sistema deve ser responsivo para todos os tipos de aparelhos
-- O sistema será contruído com um banco de dados não relacional como MongoDB
+- O sistema será contruído com um banco de dados não relacional como MongoDB 
 
 
 
