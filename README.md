@@ -40,7 +40,7 @@ Por meio da organização de um portifólio de projetos de alunos no IBMEC.
 - How Much (Quanto):
 O tempo e o esforço dedicados para o desenvolvimento do sistema.
 
-# Requisitos funcionais
+# Requisitos funcionais:
 - O sistema deve listar os projetos
 - O sistema deve ter um scroll view para dar espaço a todos os projetos feitos por alunos
 - Ao clicar no projeto o sistema deve fornecer o detalhamento do mesmo
@@ -54,7 +54,7 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 - O sistema deve possuir o email dos integrantes do projeto
 - O sistema deve possuir a capacidade de mais de um idioma para possíveis usuários estrangeiros
 
-# Requisitos não funcionais
+# Requisitos não funcionais:
 - O sistema deve ser rápido
 - O sistema deve ser estável
 - O sistema deve possuir uma interface intuitiva e fácil de utilizar
