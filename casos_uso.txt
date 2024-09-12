@@ -25,7 +25,7 @@ ATENDER TODOS OS REQUISITOS COM OS CASOS DE USO
 
 Pensar nas telas do sistema a partir dos casos de uso
 
-- Exemplo - olhar projetos
+- Exemplo (casos de uso) - olhar projetos
     - Atores: usuários
     - Descrição
         Pré-Condição
@@ -34,3 +34,11 @@ Pensar nas telas do sistema a partir dos casos de uso
             - Usuário clica em um card que terá o nome do projeto
         Pós condição
             - O sistema irá abrir mais informações sobre o projeto
+
+- Exemplo (detalhamento dos requisitos funcionais) - O sistema deve listar projetos
+    - o sistema deve apresentar uma listagem infinita (scroll continuo) dos projetos
+    - o sistema deve agrupar a exibição dos projetos em colunas:
+        - 1 coluna em dispositivos móveis
+        - 4 colunas em tablets
+        - 6 colunas em telas de até 1200px
+        - 8 colunas em telas maiores
