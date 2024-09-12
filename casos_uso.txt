@@ -1,0 +1,36 @@
+ATENDER TODOS OS REQUISITOS COM OS CASOS DE USO
+# Casos de uso:
+- Não são os diagramas, são as descrições dos casos de uso
+- São exemplos de atividades de uso do sistema
+- Casos de uso possuem atores ( geralmente são os usuários )
+- Caso de uso clássico -> emissão de nota fiscal 
+- temos que pensar o usuário vai usar o sistema para quê?
+- Caso de uso clássico -> autenticação no sistema
+- Os casos de uso possuem descrição -> geralmente são verbos no infinitivo
+- CASO DE USO PRECISA DE: atores, nome e descrição
+- Exemplos de nomes:
+    - Emitir notas fiscais
+    - Pesquisar livros
+    - Cadastrar usuários
+- Exemplos de Descrição
+    - Não existe formato correto
+    - Emitir nota fiscal: usuário usa o sistema para emitir nota fiscal
+- Pré-condição: 
+    - é a condição que o sistema tem que estar para que aquele caso de uso aconteça
+    - Exemplo: para emitir nota fiscal o cliente precisa estar logado
+- Fluxo principal
+    - usuário clica no botão adicionar nota
+    - usuário preenche os dados do formulário indicando: cnpj, razao social ...
+    - ao final do fluxo principal tem que ter uma pós condição -> nota fiscal ter sido emitida e registrada no banco de dados
+
+Pensar nas telas do sistema a partir dos casos de uso
+
+- Exemplo - olhar projetos
+    - Atores: usuários
+    - Descrição
+        Pré-Condição
+            O usuário tem que estar na página principal
+        Fluxo-principal
+            - Usuário clica em um card que terá o nome do projeto
+        Pós condição
+            - O sistema irá abrir mais informações sobre o projeto

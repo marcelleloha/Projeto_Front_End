@@ -24,7 +24,7 @@ Disponibilizar um portifólio de projetos realizados
 por alunos do IBMEC para que futuros contratantes 
 possam observa-los de forma atrativa.
 
-# 5W2H
+# 5W2H:
 - What (O quê):
 Sistema para a exibição e visualização de projetos efetuados por alunos do ibmec.
 - Why (Por quê):
@@ -58,8 +58,5 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 - O sistema deve possuir a identidade visual do IBMEC;
 - O sistema deve ser responsivo para todos os tipos de aparelhos;
 - O sistema será construído com um banco de dados não relacional como MongoDB.
-
-
-
 
 
