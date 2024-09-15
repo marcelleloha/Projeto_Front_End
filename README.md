@@ -42,7 +42,7 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 
 # Requisitos funcionais:
 - O sistema deve listar os projetos;
-- O sistema deve ter um scroll view para dar espaço a todos os projetos feitos por alunos;
+- O sistema deve ter um sistema de paginação para exibir todos os projetos dos alunos;
 - Ao clicar no projeto o sistema deve fornecer o detalhamento do mesmo;
 - O sistema deve possuir uma aba administrativa;
 - O sistema deve permitir a busca de projetos com filtros;
@@ -52,11 +52,34 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 - O sistema deve possibilitar o administrador fazer alterações na descrição do projeto;
 - O sistema deve autorizar somente o administrador a adicionar e fazer mudanças nos projetos e no portifólio;
 - O sistema deve possuir o email dos integrantes do projeto;
-- O sistema deve possuir a capacidade de mais de um idioma para possíveis usuários estrangeiros.
+- O sistema deve possuir a capacidade de mais de um idioma para possíveis usuários estrangeiros;
+- Após retornar do acesso a um projeto o sistema deve retornar para a página que estava anteriormente;
 
 # Requisitos não funcionais:
 - O sistema deve possuir a identidade visual do IBMEC;
 - O sistema deve ser responsivo para todos os tipos de aparelhos;
 - O sistema será construído com um banco de dados não relacional como MongoDB.
+
+# Descrição dos requisitos funcionais
+- O sistema deve listar os projetos;
+    - O sistema deve apresentar uma listagem infinita de projetos por meio de paginação
+    - O sistema deve agrupar a exibição dos projetos em colunas
+        - 1 coluna em dispositivos móveis
+        - 4 colunas em tablets
+        - 6 colunas em telas de até 1200px
+        - 8 colunas em telas maiores
+- O sistema deve ter um sistema de paginação para exibir todos os projetos dos alunos;
+    - O sitema deve apresentar a listagem infinita por meio de páginação agrupando 20 projetos por página
+- Ao clicar no projeto o sistema deve fornecer o detalhamento do mesmo;
+    - O sistema vai oferecer o detalhamento do projeto por meio de abertura de uma nova página com mais detalhes do mesmo
+- O sistema deve possuir uma aba administrativa;
+    - Deve haver uma aba de login específica para o admiministrador para que ele consiga efeturar as suas funções
+    - Esse login será feio por meio de credenciais específicas
+    - O botão de login não terá fácil acesso, pois só o administrador precisa saber como e onde encontrá-lo. Exceto ele, nenhum usuário precisa efetuar o login
+- O sistema deve permitir a busca de projetos com filtros;
+    - A busca de projetos por meio de filtros funcionará por meio de filtros de seleção no banco de dados que vão retornar os projetos que atentem aos requisitos do filtro
+- O sistema deve permitir a busca de projetos com uma barra de pesquisa;
+
+
 
 
