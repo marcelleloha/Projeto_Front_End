@@ -17,16 +17,24 @@
         - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão
 - Administrador logado
     - Atores: Administrador
-    - Pré-condição: ter inserido os dados de login do administrador
-    - Fluxo principal: Adminstrador entrará no link administrativo e terá acesso página com as opções de edição, adição e remoção de projetos.
+    - Pré-condição:
+        - ter inserido os dados de login do administrador
+    - Fluxo principal:
+        -  Adminstrador entrará no link administrativo ou no botão de login no sistema e terá acesso página com as opções de edição, adição e remoção de projetos.
     - Pós-condição:
-          - O sistema irá abrir uma nova página que irá conter as opções adicionar projeto, editar projetos e deletear projetos.
+        - O sistema irá abrir uma nova página que irá conter as opções adicionar projeto, editar projetos e deletear projetos.
 - Editar projetos
     - Atores: administrador
     - Pré-condição:
         - O usuário administrador deve estar logado
+        - Fluxo principal 
 - Adicionar projetos
     - Atores: Administrador
+    - Pré-condição:
+        - O admnistrador deve estar logado e deve ter clicado no botão adicionar projetos na página de opções.
+    - Fluxo Principal:
+        - O administrador clica no botão de adicionar projeto acompanhado do símbolo "+" e insere as informações do projeto, junto com os dados dos participantes e o projeto em si.
+        - Pós-condição: O sistema atualizará a lista de projetos e adicionar um novo projeto para visualização do usuário
 - Deletar projetos
     - Atores: Administrador
 - Filtrar pesquisa
