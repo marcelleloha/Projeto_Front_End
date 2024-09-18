@@ -25,16 +25,16 @@ por alunos do IBMEC para que futuros contratantes
 possam observa-los de forma atrativa.
 
 # 5W2H
-- [5W2H](https://github.com/marcelleloha/Projeto_Front_End/blob/main/casos_descricao/5w2h.md)
+- [5W2H](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/5w2h.md)
 
 # Requisitos funcionais:
-- [Requisitos Funcionais e Não funcionais](https://github.com/marcelleloha/Projeto_Front_End/blob/main/casos_descricao/requisitos.md)
+- [Requisitos Funcionais e Não funcionais](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/requisitos.md)
 
 # Descrição de requisitos
-- [Descrição de requisitos funcionais e não funcionais](https://github.com/marcelleloha/Projeto_Front_End/blob/main/casos_descricao/descricao_requisitos.md)
+- [Descrição de requisitos funcionais e não funcionais](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/descricao_requisitos.md)
 
 # Casos de Uso
-- [Casos de uso do sistema](https://github.com/marcelleloha/Projeto_Front_End/blob/main/casos_descricao/casos_uso.md)
+- [Casos de uso do sistema](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/casos_uso.md)
 
 
     
