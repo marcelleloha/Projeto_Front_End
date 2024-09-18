@@ -101,6 +101,26 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
     - Embaixo da descrição do projeto terá os emails dos integrantes que realizaram o projeto, para contato do possível contratante
 - O sistema deve possuir a capacidade de mais de um idioma para possíveis usuários estrangeiros;
     - Por meio de um seletor de idioma no navbar do sistema o usuário conseguirá alterar o idioma da página
+
+# Descrição dos requisitos não funcionais
+
+# Casos de Uso
+- Vizualizar projetos
+    - Atores: Alunos, professores, contratantes, usuários gerais
+    - Pré-condição:
+        - Entrar na sistema
+    - Fluxo principal
+        - Usuário clica no elemento que terá o nome e a imagem do projeto
+    - Pós-condição
+        - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão
+- Ver descrição de projetos
+- Editar projetos
+- Adicionar projetos
+- Deletar projetos
+- Filtrar pesquisa
+- Pesquisar projetos
+- Entrar na parte administrativa
+
     
 
 
