@@ -4,7 +4,9 @@
     - Pré-condição:
         - Entrar no sistema pelo site do ibmec
     - Fluxo principal:
-        - Usuário presente na página principal
+        - Usuário presente na página principal vai scrollar pelos projetos. Caso não ache o que está sendo procurado ele pode ir até o final do scroll view usar a paginação para que 20 novos projetos apareçam na tela
+    - Pós-condição:
+        - Usuário conseguir achar o projeto desejado e acessar o mesmo
 - Ver descrição de projetos
     - Atores: Alunos, professores, contratantes, usuários gerais
     - Pré-condição:
@@ -13,7 +15,14 @@
         - Usuário clica no elemento que terá o nome e a imagem do projeto
     - Pós-condição
         - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão
+- Administrador logado
+    - Atores: Administrador
+    - Pré-condição:
+    - 
 - Editar projetos
+    - Atores: administrador
+    - Pré-condição:
+        - O usuário administrador deve estar logado
 - Adicionar projetos
 - Deletar projetos
 - Filtrar pesquisa

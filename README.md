@@ -60,6 +60,9 @@ O tempo e o esforço dedicados para o desenvolvimento do sistema.
 - O sistema deve ser responsivo para todos os tipos de aparelhos;
 - O sistema será construído com um banco de dados não relacional como MongoDB.
 
+# Descrição de requisitos
+- [Descrição de requisitos funcionais e não funcionais](https://github.com/marcelleloha/Projeto_Front_End/blob/main/casos_descricao/descricao_requisitos.md)
+
 # Casos de Uso
 - [Casos de uso do sistema](https://github.com/marcelleloha/Projeto_Front_End/blob/main/casos_descricao/casos_uso.md)
 
