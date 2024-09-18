@@ -41,3 +41,8 @@
     - Por meio de um seletor de idioma no navbar do sistema o usuário conseguirá alterar o idioma da página
 
 # Descrição dos requisitos não funcionais
+-O sistema deve possuir a identidade visual do IBMEC;
+-O sistema deve ser responsivo para todos os tipos de aparelhos;
+-O sistema será construído com um banco de dados não relacional como MongoDB.
+-O sistema possuirá opção de tradução do português para o inglês.
+-O sistema deve exibir os projetos em ordem cronológica (do projeto mais novo publicado ao mais antigo) na página principal.
