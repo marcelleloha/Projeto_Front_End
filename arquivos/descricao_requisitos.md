@@ -42,7 +42,11 @@
 
 # Descrição dos requisitos não funcionais
 - O sistema deve possuir a identidade visual do IBMEC;
+    - O sistema deve possuir uma ambientação de cores baseadas nas cores do IBMEC
+        - Cores a utilizar: Azul, amarelo, cinza e branco
 - O sistema deve ser responsivo para todos os tipos de aparelhos;
+    - O sistema deve funcionar em aparelhos mobiles e computadores
 - O sistema será construído com um banco de dados não relacional como MongoDB.
+    - 
 - O sistema possuirá opção de tradução do português para o inglês.
 - O sistema deve exibir os projetos em ordem cronológica (do projeto mais novo publicado ao mais antigo) na página principal.
