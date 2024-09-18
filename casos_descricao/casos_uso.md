@@ -1,13 +1,18 @@
 # Casos de Uso
-- Vizualizar projetos
+- Vizualizar listagem dos projetos
     - Atores: Alunos, professores, contratantes, usuários gerais
     - Pré-condição:
-        - Entrar na sistema
+        - Entrar no sistema pelo site do ibmec
+    - Fluxo principal:
+        - Usuário presente na página principal
+- Ver descrição de projetos
+    - Atores: Alunos, professores, contratantes, usuários gerais
+    - Pré-condição:
+        - Entrar na sistema pelo site do ibmec
     - Fluxo principal
         - Usuário clica no elemento que terá o nome e a imagem do projeto
     - Pós-condição
         - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão
-- Ver descrição de projetos
 - Editar projetos
 - Adicionar projetos
 - Deletar projetos
