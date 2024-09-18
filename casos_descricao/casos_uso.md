@@ -1,0 +1,16 @@
+# Casos de Uso
+- Vizualizar projetos
+    - Atores: Alunos, professores, contratantes, usuários gerais
+    - Pré-condição:
+        - Entrar na sistema
+    - Fluxo principal
+        - Usuário clica no elemento que terá o nome e a imagem do projeto
+    - Pós-condição
+        - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão
+- Ver descrição de projetos
+- Editar projetos
+- Adicionar projetos
+- Deletar projetos
+- Filtrar pesquisa
+- Pesquisar projetos
+- Entrar na parte administrativa
