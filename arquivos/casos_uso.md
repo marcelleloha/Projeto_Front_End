@@ -57,7 +57,9 @@
     - Pré-condição:
         - Acessar a barra pesquisa na página inicial
     - Fluxo principal:
-        - O usuário vai acessar a página de pesquisas e inserir o assunto que deseja procurar.
+        - O usuário clica na barra de pesquisa
+        - O Usuário digita a palavra chave
+        - O Usuário confirma a pesquisa
     - Pós-condição:
         - O sistema irá exibir para o usuário tudo que contém os dados da busca.   
 - Entrar na parte administrativa.
