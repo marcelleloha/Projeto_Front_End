@@ -30,8 +30,8 @@ possam observa-los de forma atrativa.
 # Requisitos:
 - [Requisitos Funcionais e Não funcionais](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/requisitos.md)
 
-# Descrição de requisitos:
-- [Descrição de requisitos funcionais e não funcionais](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/descricao_requisitos.md)
+# Detalhamento de requisitos:
+- [Detalhamento de requisitos funcionais e não funcionais](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/descricao_requisitos.md)
 
 # Casos de Uso:
 - [Casos de uso do sistema](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/casos_uso.md)
