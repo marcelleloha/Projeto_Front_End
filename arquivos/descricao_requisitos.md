@@ -47,6 +47,7 @@
 - O sistema deve ser responsivo para todos os tipos de aparelhos;
     - O sistema deve funcionar em aparelhos mobiles e computadores
 - O sistema será construído com um banco de dados não relacional como MongoDB.
+    - Será utilizado um banco de dados não relacional por ele nos permitir mais flexibilidade na manipulação de dados, diferente do convencional.
 - O sistema possuirá opção de tradução do português para o inglês.
     - O sistema deve possuir a funcionalidade de mudação da linguagem para facilitar a visualização por possíveis estrangeiros.
 - O sistema deve exibir os projetos em ordem cronológica (do projeto mais novo publicado ao mais antigo) na página principal.
