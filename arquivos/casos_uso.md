@@ -1,19 +1,19 @@
 # Casos de Uso
 - Vizualizar listagem dos projetos;
-    - Atores: Alunos, professores, contratantes, usuários gerais
+    - Atores: Alunos, professores, contratantes, usuários gerais.
     - Pré-condição:
-        - Entrar no sistema pelo site do ibmec
+        - Entrar no sistema pelo site do ibmec.
     - Fluxo principal:
         - Usuário presente na página principal vai scrollar pelos projetos. Caso não ache o que está sendo procurado ele pode ir até o final do scroll view usar a paginação para que 20 novos projetos apareçam na tela.
     - Pós-condição:
         - Usuário conseguir achar o projeto desejado e acessar o mesmo.
 - Ver descrição de projetos;
-    - Atores: Alunos, professores, contratantes, usuários gerais
+    - Atores: Alunos, professores, contratantes, usuários gerais.
     - Pré-condição:
         - Entrar na sistema pelo site do ibmec.
-    - Fluxo principal
+    - Fluxo principal:
         - Usuário clica no elemento que terá o nome e a imagem do projeto.
-    - Pós-condição
+    - Pós-condição:
         - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão.
 - Administrador logado;
     - Atores: Administrador
@@ -65,7 +65,7 @@
     - Pré-condição:
         - Entrar no link de administrador ou clicar no botão de login.
     - Fluxo principal:
-        - O administrador poderá acessar a área administrativa clicando no link ou no botão de login, onde encontrará o campo para inserir seu e-mail e senha.
+        - O administrador acessará a área administrativa clicando no link ou no botão de login, onde encontrará o campo para inserir seu e-mail e senha.
     - Pós-condição:
-        -  O sistema abrirá a página de login.
+        -  O sistema abrirá a página de login
 
