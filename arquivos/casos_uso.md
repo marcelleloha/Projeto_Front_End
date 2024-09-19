@@ -26,19 +26,22 @@
 - Editar projetos
     - Atores: administrador
     - Pré-condição:
-        - O usuário administrador deve estar logado.
-        - Fluxo principal 
+        - O administrador deve estar logado e deverá ter clicado no botão editar projetos na páginas opções.
+    - Fluxo principal:
+        - O administrador irá clicar no botão de editar projetos e abrir a página da lista de projetos já cadastrados e logo após isso selecionar o projeto para abrir a página de edição do projeto.
+    - Pós-condição:
+        - O sistema irá atualizar o projeto selecionado pelo administrador na visualização do usuário.  
 - Adicionar projetos
     - Atores: Administrador
     - Pré-condição:
-        - O admnistrador deve estar logado e deve ter clicado no botão adicionar projetos na página de opções.
+        - O admnistrador deve estar logado e deverá ter clicado no botão adicionar projetos na páginas de opções.
     - Fluxo Principal:
-        - O administrador clica no botão de adicionar projeto acompanhado do símbolo "+" e insere as informações do projeto, junto com os dados dos participantes e o projeto em si.
-        - Pós-condição: O sistema atualizará a lista de projetos e adicionar um novo projeto para visualização do usuário
+        - O administrador clica no botão de adicionar projeto acompanhado do símbolo "+" e insere as informações do projeto, junto com os dados dos participantes e do projeto em si.
+        - Pós-condição: O sistema atualizará a lista de projetos e adicionará um novo projeto para visualização do usuário.
 - Deletar projetos
     - Atores: Administrador
     - Pré-condição:
-        - O administrador clica no botão de deletar projeto e remove o projeto do sistema depois concordar com a confirmar a remoção do projeto.
+        - O administrador clica no botão de deletar projeto para abrir a página da lista de projetos já cadastrados e remove o projeto do sistema depois concordar com a confirmar a remoção do projeto.
    - Pós-condição:
        - O projeto é removido da listagem de projetos para a visualização do usuário.
 - Filtrar pesquisa
@@ -51,5 +54,18 @@
         -  O sistema limitará a lista de projetos de acordo com o filtro escolhido pelo usuário.
 - Pesquisar projetos
     - Atores: Professores, Contratantes, Usuários Gerais e Professores
+    - Pré-condição:
+        - Acessar a barra pesquisa na página inicial
+    - Fluxo principal:
+        - O usuário vai acessar a página de pesquisas e inserir o assunto que deseja procurar.
+    - Pós-condição:
+        - O sistema irá exibir para o usuário tudo que contém os dados da busca.   
 - Entrar na parte administrativa
+    - Atores: Administradores
+    - Pré-condição:
+        - Entrar no link de administrador ou clicar no botão de login.
+    - Fluxo principal:
+        - O administrador poderá acessar a área administrativa clicando no link ou no botão de login, onde encontrará o campo para inserir seu e-mail e senha.
+    - Pós-condição:
+        -  O sistema abrirá a página de login.
 
