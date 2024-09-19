@@ -4,7 +4,9 @@
     - Pré-condição:
         - Entrar no sistema pelo site do ibmec.
     - Fluxo principal:
-        - Usuário presente na página principal vai scrollar pelos projetos. Caso não ache o que está sendo procurado ele pode ir até o final do scroll view usar a paginação para que 20 novos projetos apareçam na tela.
+        - Usuário na página principal
+        - Usuário usa o scroll do mouse ou o touch do telefone para ver os projetos abaixo
+        - Usuário não achou o projeto que desejava, ele vai usar o sistema de paginação para ver mais 20 projetos
     - Pós-condição:
         - Usuário conseguir achar o projeto desejado e acessar o mesmo.
 - Ver descrição de projetos;
@@ -13,6 +15,8 @@
         - Entrar na sistema pelo site do ibmec.
     - Fluxo principal:
         - Usuário clica no elemento que terá o nome e a imagem do projeto.
+        - Usuário acessa a página do projeto
+        - Usuário lê a descrição detalhada do projeto
     - Pós-condição:
         - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão.
 - Administrador logado;
@@ -20,7 +24,9 @@
     - Pré-condição:
         - ter inserido os dados de login (email e senha) do administrador
     - Fluxo principal:
-        -  Adminstrador entrará no link administrativo ou no botão de login no sistema e terá acesso página com as opções de edição, adição e remoção de projetos.
+        - Adiministrador entra no link ou no botão dedicado para o login do  mesmo 
+        - Administrador insere os dados de acesso na página de login
+        - Administrador clica no botão de login
     - Pós-condição:
         - O sistema irá abrir uma nova página que irá conter as opções adicionar projeto, editar projetos e deletear projetos.
 - Editar projetos;
@@ -28,7 +34,10 @@
     - Pré-condição:
         - O administrador deve estar logado e deverá ter clicado no botão editar projetos na páginas opções.
     - Fluxo principal:
-        - O administrador irá clicar no botão de editar projetos e abrir a página da lista de projetos já cadastrados e logo após isso selecionar o projeto para abrir a página de edição do projeto.
+        - O adiministrador clica no botão para acessar a parte de gerenciamento de projetos
+        - O adiministrador acessa o projeto que deseja editar
+        - O adiministrador clica no botão de editar o projeto
+        - O adiministrador edita as informações do projeto podendo ser título, descrição, imagem e tecnologia usada
     - Pós-condição:
         - O sistema irá atualizar o projeto selecionado pelo administrador na visualização do usuário.  
 - Adicionar projetos;
