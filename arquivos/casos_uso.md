@@ -4,21 +4,21 @@
     - Pré-condição:
         - Entrar no sistema pelo site do ibmec
     - Fluxo principal:
-        - Usuário presente na página principal vai scrollar pelos projetos. Caso não ache o que está sendo procurado ele pode ir até o final do scroll view usar a paginação para que 20 novos projetos apareçam na tela
+        - Usuário presente na página principal vai scrollar pelos projetos. Caso não ache o que está sendo procurado ele pode ir até o final do scroll view usar a paginação para que 20 novos projetos apareçam na tela.
     - Pós-condição:
-        - Usuário conseguir achar o projeto desejado e acessar o mesmo
+        - Usuário conseguir achar o projeto desejado e acessar o mesmo.
 - Ver descrição de projetos
     - Atores: Alunos, professores, contratantes, usuários gerais
     - Pré-condição:
-        - Entrar na sistema pelo site do ibmec
+        - Entrar na sistema pelo site do ibmec.
     - Fluxo principal
-        - Usuário clica no elemento que terá o nome e a imagem do projeto
+        - Usuário clica no elemento que terá o nome e a imagem do projeto.
     - Pós-condição
-        - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão
+        - O sistema irá abrir uma nova página para que o usuário consiga visualizar mais detalhes sobre o projeto em questão.
 - Administrador logado
     - Atores: Administrador
     - Pré-condição:
-        - ter inserido os dados de login do administrador
+        - ter inserido os dados de login (email e senha) do administrador
     - Fluxo principal:
         -  Adminstrador entrará no link administrativo ou no botão de login no sistema e terá acesso página com as opções de edição, adição e remoção de projetos.
     - Pós-condição:
@@ -26,7 +26,7 @@
 - Editar projetos
     - Atores: administrador
     - Pré-condição:
-        - O usuário administrador deve estar logado
+        - O usuário administrador deve estar logado.
         - Fluxo principal 
 - Adicionar projetos
     - Atores: Administrador
@@ -37,8 +37,18 @@
         - Pós-condição: O sistema atualizará a lista de projetos e adicionar um novo projeto para visualização do usuário
 - Deletar projetos
     - Atores: Administrador
+    - Pós-condição:
+        -O administrador clica no botão de deletar projeto e remove o projeto do sistema depois concordar com a confirmar a remoção do projeto.
+   - Pós-condição:
+       - O projeto é removido da listagem de projetos para a visualização do usuário.
 - Filtrar pesquisa
     - Atores: Usuários Gerais, Alunos, Professores e Contratantes
+    - Pré-condição:
+      -  Clicar no botão de filtros.
+    - Fluxo Principal:
+        -  O usuário acessará na opção de filtros e clicará no tipo de filtro desejado.
+    - Pós-condição:
+        -  O sistema limitará a lista de projetos de acordo com o filtro escolhido pelo usuário.
 - Pesquisar projetos
     - Atores: Professores, Contratantes, Usuários Gerais e Professores
 - Entrar na parte administrativa
