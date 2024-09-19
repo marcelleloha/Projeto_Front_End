@@ -37,8 +37,8 @@
         - Pós-condição: O sistema atualizará a lista de projetos e adicionar um novo projeto para visualização do usuário
 - Deletar projetos
     - Atores: Administrador
-    - Pós-condição:
-        -O administrador clica no botão de deletar projeto e remove o projeto do sistema depois concordar com a confirmar a remoção do projeto.
+    - Pré-condição:
+        - O administrador clica no botão de deletar projeto e remove o projeto do sistema depois concordar com a confirmar a remoção do projeto.
    - Pós-condição:
        - O projeto é removido da listagem de projetos para a visualização do usuário.
 - Filtrar pesquisa
