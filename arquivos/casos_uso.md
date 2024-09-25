@@ -1,5 +1,5 @@
 # Casos de Uso
-- Vizualizar listagem dos projetos;
+- Visualizar listagem dos projetos;
     - Atores: Alunos, professores, contratantes, usuários gerais.
     - Pré-condição:
         - Entrar no sistema pelo site do ibmec.
