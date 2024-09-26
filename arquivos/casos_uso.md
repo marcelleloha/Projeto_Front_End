@@ -45,12 +45,20 @@
     - Pré-condição:
         - O admnistrador deve estar logado e deverá ter clicado no botão adicionar projetos na páginas de opções.
     - Fluxo Principal:
-        - O administrador clica no botão de adicionar projeto acompanhado do símbolo "+" e insere as informações do projeto, junto com os dados dos participantes e do projeto em si.
-        - Pós-condição: O sistema atualizará a lista de projetos e adicionará um novo projeto para visualização do usuário.
+        - O adiministrador está logado na página de admin
+        - O adiministrador clica no botão de adicionar projeto
+        - O adiministrador preenche as informações para adicionar projetos
+        - O projeto é adicionado
+    - Pós-condição: O sistema atualizará a lista de projetos e adicionará um novo projeto para visualização do usuário.
 - Deletar projetos;
     - Atores: Administrador
     - Pré-condição:
         - O administrador clica no botão de deletar projeto para abrir a página da lista de projetos já cadastrados e remove o projeto do sistema depois concordar com a confirmar a remoção do projeto.
+    - Fluxo Principal
+        - O adiministrador está logado na página de admin
+        - O adiministrador clica no botão de deletar projeto
+        - O adiministrador confirma que quer deletar um projeto
+        - O projeto é deletado
    - Pós-condição:
        - O projeto é removido da listagem de projetos para a visualização do usuário.
 - Filtrar pesquisa;
@@ -58,7 +66,10 @@
     - Pré-condição:
       -  Clicar no botão de filtros.
     - Fluxo Principal:
-        -  O usuário acessará na opção de filtros e clicará no tipo de filtro desejado.
+        - O usuário está na página principal da plataforma
+        - O usuário clica no botão de filtro
+        - O usuário clica na opção de filtro que deseja
+        - O conteúdo é filtradoo
     - Pós-condição:
         -  O sistema limitará a lista de projetos de acordo com o filtro escolhido pelo usuário.
 - Pesquisar projetos;
@@ -76,7 +87,9 @@
     - Pré-condição:
         - Entrar no link de administrador ou clicar no botão de login.
     - Fluxo principal:
-        - O administrador acessará a área administrativa clicando no link ou no botão de login, onde encontrará o campo para inserir seu e-mail e senha.
+        - O administrador entra clica no botão de login no footer
+        - O administrador vai inserir os dados de login
+        - O administrador clica no botão de login
     - Pós-condição:
         -  O sistema abrirá a página de login
 
