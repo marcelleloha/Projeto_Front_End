@@ -36,7 +36,7 @@ possam observa-los de forma atrativa.
 # Casos de Uso:
 - [Casos de uso do sistema](https://github.com/marcelleloha/Projeto_Front_End/blob/main/arquivos/casos_uso.md)
   
-# Link Projeto
+# Link Apresentação do Projeto:
 - [Apresentação](https://www.canva.com/design/DAGRthlVS6w/_PT8B5t7nsu8qJxuEg6TvA/edit?utm_content=DAGRthlVS6w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
     
