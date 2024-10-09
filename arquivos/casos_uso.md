@@ -92,4 +92,3 @@
         - O administrador clica no botão de login
     - Pós-condição:
         -  O sistema abrirá a página de login
-
