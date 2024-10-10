@@ -5,6 +5,7 @@ import { auth } from "../config/Firebase";
 import ParteAzul from "../components/ParteAzul/ParteAzul";
 import Cartao from "../components/Cartao/Cartao";
 import GrupoCartoes from "../components/GrupoCartoes/GrupoCartoes";
+import Filtros from "../components/Filtros/Filtros";
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
         name="Projeto de Alunos"
         texto="Navegue pelos projetos realizados por alunos da Instituição Brasileira de Mercados e Capitais"
       />
+      <Filtros/>
       <GrupoCartoes/>
     </Base>
   );
