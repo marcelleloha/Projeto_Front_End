@@ -13,11 +13,13 @@ const Header = () => (
         <Link to="/">Home</Link>
         <Link to="/fotos">Projetos</Link>
         <Link to="/sobrenos">Sobre o Projeto</Link>
-        
-        { window.sessionStorage.getItem('accessToken')
-        ? <Link to="/logout">Logout</Link>
-        : <Link to="/login">Login</Link>
-        }
+        {/*
+          
+          { window.sessionStorage.getItem('accessToken')
+          ? <Link to="/logout">Logout</Link>
+          : <Link to="/login">Login</Link>
+          }
+          */}
         
       
       </div>
