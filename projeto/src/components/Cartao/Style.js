@@ -11,6 +11,7 @@ const Container = styled.div `
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    transition: background-color 0.3s;
 
     #titulo {
         text-decoration: wavy;
@@ -28,6 +29,11 @@ const Container = styled.div `
     text-decoration: none;
     color: black;
     }
+
+    :hover {
+    background-color: gray; 
+    }
+
 `
 
 
