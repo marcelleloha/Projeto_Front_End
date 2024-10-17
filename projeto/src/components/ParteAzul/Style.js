@@ -4,8 +4,10 @@ const TopPart = styled.header `
   background-color: rgb(0, 37, 85);
   padding-left: 100px;
   padding-right: 100px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   #topnav {
     margin-top: 20px;
     display: flex;
@@ -29,6 +31,11 @@ const TopPart = styled.header `
   }
   p {
     color: white;
+  }
+  img {
+    height: 27rem;
+    position: relative;
+    top: 4px;
   }
 
 `

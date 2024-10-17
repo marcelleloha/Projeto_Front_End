@@ -8,7 +8,7 @@ const Div = styled.div `
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
-    gap: 20px;
+    gap: 5px;
 `
 
 export {Div}

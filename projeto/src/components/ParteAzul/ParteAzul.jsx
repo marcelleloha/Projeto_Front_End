@@ -12,6 +12,9 @@ const ParteAzul = (props) => (
       </p>
 
     </div>
+    <div id='imagem'>
+      <img src="imagens/heroimage.png"></img>
+    </div>
   </TopPart>
 )
 

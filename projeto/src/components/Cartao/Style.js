@@ -8,6 +8,9 @@ const Container = styled.div `
     height: 20em;
     background-color: #f5f5f5f5;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .08);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 
     #titulo {
         text-decoration: wavy;
@@ -17,6 +20,10 @@ const Container = styled.div `
         padding: 0.5rem
     }
     #divPrincipal{}
+    img {
+        height: 120px;
+    }
+
 `
 
 
