@@ -47,7 +47,7 @@ function Filtros() {
         <h1>Projetos</h1>
         <div id='inputWraper'>
           <FaSearch id='iconeDePesquisa'/>
-          <input placeholder='Pesquise Algo'/>
+          <input placeholder='Pesquise Aqui'/>
           
         </div>
       </div>
