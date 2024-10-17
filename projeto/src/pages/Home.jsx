@@ -14,10 +14,12 @@ const Home = () => {
     <Base>
       <ParteAzul
         name="Projeto de Alunos"
-        texto="Navegue pelos projetos realizados por alunos da Instituição Brasileira de Mercados e Capitais"
+        texto="Navegue pelos projetos realizados por alunos e professores do IBMEC"
+        imagem='imagens/heroimage.png'
       />
       <Filtros/>
       <GrupoCartoes/>
+      <ParteAzul/>
     </Base>
   );
 };

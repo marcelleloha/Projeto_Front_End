@@ -9,6 +9,7 @@ const Div = styled.div `
     flex-wrap: wrap;
     margin-top: 30px;
     gap: 5px;
+    padding-bottom: 50px;
 `
 
 export {Div}

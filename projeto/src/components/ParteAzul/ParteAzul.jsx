@@ -13,7 +13,7 @@ const ParteAzul = (props) => (
 
     </div>
     <div id='imagem'>
-      <img src="imagens/heroimage.png"></img>
+      <img src={props.imagem}></img>
     </div>
   </TopPart>
 )
