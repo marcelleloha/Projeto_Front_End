@@ -14,7 +14,7 @@ const Home = () => {
     <Base>
       <ParteAzul
         name="Projeto de Alunos"
-        texto="Navegue pelos projetos realizados por alunos e professores do IBMEC"
+        texto="Navegue pelos projetos realizados por alunos e professores do IBMEC."
         imagem='imagens/heroimage.png'
       />
       <Filtros/>
