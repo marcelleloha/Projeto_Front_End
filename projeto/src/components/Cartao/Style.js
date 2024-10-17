@@ -24,7 +24,12 @@ const Container = styled.div `
         height: 120px;
     }
 
+    #no-underline {
+    text-decoration: none;
+    color: black;
+    }
 `
+
 
 
 export {Container}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Cartao(props) {
   return (
     <Container>
-      <Link to='/projeto'>
+      <Link to='/projeto' id='no-underline'>
         <div id='divPrincipal'>
             <h3 id='titulo'>{props.titulo}</h3>
             <img src={props.imagem} id='teste'></img>
