@@ -2,6 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import dados from '../data/projects.json';
 import ConteudoProjeto from '../components/ConteudoProjeto/ConteudoProjeto';
+import Base from "./Base";
+import ParteAzul from '../components/ParteAzul/ParteAzul';
 
 function ProjetoDetalhes() {
   const { id } = useParams()
@@ -12,13 +14,20 @@ function ProjetoDetalhes() {
   }
 
   return (
-    <div>
+    <Base>
+      <ParteAzul name={projeto.titulo} texto={projeto.dec} imagem={projeto.imagem}/>
+
       <ConteudoProjeto 
         titulo={projeto.titulo}
         imagem={projeto.imagem}
         texto={projeto.texto}
-      />
-    </div>
+        tecnologias={projeto.tecnologias}
+        unidade={projeto.unidade}
+        periodo={projeto.periodo}
+        paragrafo={projeto.paragrafo}
+      /> 
+
+    </Base>
   );
 }
 

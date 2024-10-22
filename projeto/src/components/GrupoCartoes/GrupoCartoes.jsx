@@ -10,8 +10,7 @@ function GrupoCartoes() {
   const { id } = useParams();
 
   let dadosFiltrados;
-  // filter: vai percorrer os elementos que o resultado da função seja true
-  // const dadosFiltrados = id ? dados.filter((elemento) => elemento.id === parseInt(id)) : dados;
+  
   if (id) {
     dadosFiltrados = dados.filter((elemento) => elemento.id === parseInt(id));
   } else {
@@ -24,7 +23,7 @@ function GrupoCartoes() {
           
         {dadosFiltrados.map((item, index) => (
             <Link to={`/projeto/${item.id}`} id='no-underline'>
-              <Cartao key={index} titulo={item.titulo} texto={item.texto} imagem={item.imagem}/>
+              <Cartao key={index} tituloCima={item.titulo} texto={item.texto} imagem={item.imagem} textoBaixoTec={item.tecnologias} textoBaixoUn={item.unidade} textoBaixoPe={item.periodo}/>
             </Link> 
         ))}
     
