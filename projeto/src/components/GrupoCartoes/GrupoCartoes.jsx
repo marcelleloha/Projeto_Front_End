@@ -1,37 +1,31 @@
 import React from 'react';
 import Cartao from '../Cartao/Cartao';
 import { Div } from './Style'
+import { Link } from "react-router-dom";
+import dados from '../../data/projects.json';
+import { useParams } from 'react-router-dom';
 
 function GrupoCartoes() {
-  const listaDeCartoes = [
-    { id: 1, titulo: "Projeto 1", texto: "Descrição do Projeto 1", imagem: 'imagens/projeto1.png' },
-    { id: 2, titulo: "Projeto 2", texto: "Descrição do Projeto 2", imagem: 'imagens/projeto1.png' },
-    { id: 3, titulo: "Projeto 3", texto: "Descrição do Projeto 3", imagem: 'imagens/projeto1.png' },
-    { id: 4, titulo: "Projeto 4", texto: "Descrição do Projeto 4", imagem: 'imagens/projeto1.png' },
-    { id: 5, titulo: "Projeto 5", texto: "Descrição do Projeto 5", imagem: 'imagens/projeto1.png' },
-    { id: 6, titulo: "Projeto 6", texto: "Descrição do Projeto 6", imagem: 'imagens/projeto1.png' },
-    { id: 7, titulo: "Projeto 7", texto: "Descrição do Projeto 7", imagem: 'imagens/projeto1.png' },
-    { id: 8, titulo: "Projeto 8", texto: "Descrição do Projeto 8", imagem: 'imagens/projeto1.png' },
-    { id: 9, titulo: "Projeto 9", texto: "Descrição do Projeto 9", imagem: 'imagens/projeto1.png' },
-    { id: 10, titulo: "Projeto 10", texto: "Descrição do Projeto 10", imagem: 'imagens/projeto1.png' },
-    { id: 11, titulo: "Projeto 11", texto: "Descrição do Projeto 11", imagem: 'imagens/projeto1.png' },
-    { id: 12, titulo: "Projeto 12", texto: "Descrição do Projeto 12", imagem: 'imagens/projeto1.png' },
-    { id: 13, titulo: "Projeto 13", texto: "Descrição do Projeto 13", imagem: 'imagens/projeto1.png' },
-    { id: 14, titulo: "Projeto 14", texto: "Descrição do Projeto 14", imagem: 'imagens/projeto1.png' },
-    { id: 15, titulo: "Projeto 15", texto: "Descrição do Projeto 15", imagem: 'imagens/projeto1.png' },
-    { id: 16, titulo: "Projeto 16", texto: "Descrição do Projeto 16", imagem: 'imagens/projeto1.png' },
-    { id: 17, titulo: "Projeto 17", texto: "Descrição do Projeto 17", imagem: 'imagens/projeto1.png' },
-    { id: 18, titulo: "Projeto 18", texto: "Descrição do Projeto 18", imagem: 'imagens/projeto1.png' },
-    { id: 19, titulo: "Projeto 19", texto: "Descrição do Projeto 19", imagem: 'imagens/projeto1.png' },
-    { id: 20, titulo: "Projeto 20", texto: "Descrição do Projeto 20", imagem: 'imagens/projeto1.png' }
-  ];
-  
+
+  const { id } = useParams();
+
+  let dadosFiltrados;
+  // filter: vai percorrer os elementos que o resultado da função seja true
+  // const dadosFiltrados = id ? dados.filter((elemento) => elemento.id === parseInt(id)) : dados;
+  if (id) {
+    dadosFiltrados = dados.filter((elemento) => elemento.id === parseInt(id));
+  } else {
+    dadosFiltrados = dados;
+  }
       
   return (
     <Div>
-        
-        {listaDeCartoes.map((item, index) => (
-            <Cartao key={index} titulo={item.titulo} texto={item.texto} imagem={item.imagem}/>
+
+          
+        {dadosFiltrados.map((item, index) => (
+            <Link to={`/projeto/${item.id}`} id='no-underline'>
+              <Cartao key={index} titulo={item.titulo} texto={item.texto} imagem={item.imagem}/>
+            </Link> 
         ))}
     
     </Div>

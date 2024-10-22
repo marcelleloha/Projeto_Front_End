@@ -34,7 +34,7 @@ root.render(
         <Route path="/login" element={<Login/>} />
         <Route path="/logout" element={<Logout/>} />
         <Route path="/sobrenos" element={<SobreNos/>} />
-        <Route path="/projeto" element={<Projeto/>} />
+        <Route path="/projeto/:id" element={<Projeto/>} />
         
       </Routes>
     </HashRouter>

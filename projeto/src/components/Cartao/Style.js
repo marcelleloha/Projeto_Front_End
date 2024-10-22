@@ -13,22 +13,21 @@ const Container = styled.div `
     padding-top: 10px;
     transition: background-color 0.3s;
 
-    #titulo {
+    .titulo {
         text-decoration: wavy;
         padding: 0.5rem;
     }
-    #texto {
+    .texto {
         padding: 0.5rem
     }
-    #divPrincipal{}
+    .divPrincipal{
+        flex: 1 1 300px;
+        box-sizing: border-box;
+    }
     img {
         height: 120px;
     }
 
-    #no-underline {
-    text-decoration: none;
-    color: black;
-    }
 
     :hover {
     background-color: gray; 
