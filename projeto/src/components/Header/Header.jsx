@@ -11,7 +11,7 @@ const Header = () => (
       </div>
       <div id="navegacao">
         <Link to="/">Home</Link>
-        <Link to="/fotos">Projetos</Link>
+        <Link to="/">Projetos</Link>
         <Link to="/sobrenos">Sobre o Projeto</Link>
         {/*
           

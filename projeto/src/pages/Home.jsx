@@ -13,13 +13,14 @@ const Home = () => {
   return (
     <Base>
       <ParteAzul
-        name="Portifólio de Projetos"
+        name="Portfólio de Projetos"
         texto="Navegue pelos projetos ligados a instituição IBMEC"
         imagem='imagens/heroimage.png'
       />
       <Filtros/>
-      <GrupoCartoes/>
-      <ParteAzul/>
+      <div id="test-redirect">
+        <GrupoCartoes/>
+      </div>
     </Base>
   );
 };
