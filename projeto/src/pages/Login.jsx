@@ -3,6 +3,8 @@ import { redirect, useNavigate } from "react-router-dom";
 import { auth } from "../config/Firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Base from "./Base";
+import { Container } from "./PagesStyles/Style";
+import Header from "../components/Header/Header";
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -20,23 +22,28 @@ const Login = () => {
   };
 
   return (
-    <Base>
-      <form onSubmit={handleLogin}>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-        />
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
-        />
-        <button type="submit">Login</button>
-      </form>
-    </Base>
+    <>
+      <Header/>
+      <Container>
+
+        <form onSubmit={handleLogin}>
+          <p>ADM</p>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder="Email"
+          />
+          <input
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="Password"
+          />
+          <button type="submit">Login</button>
+        </form>
+        </Container>
+    </>
   )
 }
 

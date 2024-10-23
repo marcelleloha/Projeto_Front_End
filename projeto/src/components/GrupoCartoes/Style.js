@@ -10,6 +10,7 @@ const Div = styled.div `
     margin-top: 30px;
     gap: 5px;
     padding-bottom: 50px;
+    background-color: #F5F5F5;
 
     
     #no-underline {

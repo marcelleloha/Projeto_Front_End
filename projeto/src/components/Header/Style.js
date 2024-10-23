@@ -5,6 +5,7 @@ const Top = styled.header`
   margin: 0;
   padding-left: 100px;
   padding-right: 100px;
+  background-Color: #f5f5f5;
   
   #navbar {
     display: flex;
