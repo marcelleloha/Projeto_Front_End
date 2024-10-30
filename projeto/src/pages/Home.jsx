@@ -6,6 +6,7 @@ import ParteAzul from "../components/ParteAzul/ParteAzul";
 import Cartao from "../components/Cartao/Cartao";
 import GrupoCartoes from "../components/GrupoCartoes/GrupoCartoes";
 import Filtros from "../components/Filtros/Filtros";
+import HamburgerMenu from "../components/menuSanduiche/menuSanduiche";
 
 const Home = () => {
 
@@ -21,6 +22,7 @@ const Home = () => {
       <div id="test-redirect">
         <GrupoCartoes/>
       </div>
+      <HamburgerMenu/>
     </Base>
   );
 };

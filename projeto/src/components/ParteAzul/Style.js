@@ -7,6 +7,7 @@ const TopPart = styled.header `
     background-color: rgb(0, 37, 85);
     padding-left: 100px;
     padding-right: 100px;
+    height: 500px;
   
     display: flex;
     justify-content: space-between;
@@ -31,8 +32,8 @@ const TopPart = styled.header `
     }
     img {
       position: relative;
-      top: 4px;
-      width: 500px;
+      top: 25px;
+      width: 400px;
     }
   }
   
@@ -41,14 +42,16 @@ const TopPart = styled.header `
     padding-right: 20px;
     background-color: rgb(0, 37, 85);
     padding-top: 20px;
+    text-align: center;
     #titulo {
       display: flex;
       flex-direction: column;
       gap: 20px;
       width: fit-content;
+      padding-bottom: 20px;
     }
     #texto {
-      font-size: 18px;
+      font-size: 15px;
       font-weight: lighter;
     }
     #tituloreal {
@@ -59,8 +62,8 @@ const TopPart = styled.header `
       color: white;
     }
     img {
-
-      width: 300px;
+      text-align: right;
+      width: 200px;
 
     }
   }
