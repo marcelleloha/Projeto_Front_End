@@ -8,7 +8,7 @@ const Container = styled.div `
     display: flex;
     margin: 10px;
     padding: 15px 15px;
-    height: 380px;
+    height: auto;
 
     .titulo-cima {
         font-weight: bold;
