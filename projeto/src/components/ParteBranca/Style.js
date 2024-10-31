@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 const TopPart = styled.header `
-  background-color: rgb(255, 255, 255);
+  background-color: #F5F5F5;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 70px;
@@ -60,10 +60,62 @@ const TopPart = styled.header `
     border: 0
   }
   #botao2{
-    background-color: white;
+    background-color: #F5F5F5;
     border: 2px solid #F5AC00
   }
+
+  #conteudo-azul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #imagemProjeto{
+    width: 50%;
+    height: 50%;
+  }
+  #parteAzul{
+    background-color: #002555;
+  }
+`
+const Azul = styled.header `
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #002555;
+  color: white;
+
+  #titulo {
+    font-size: 54px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  #conteudo-azul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  #imagemProjeto{
+    width: 45%;
+    height: 45%;
+  }
+  #parteAzul{
+    background-color: #002555;
+  }
+`
+const Terceiro = styled.header `
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  background-color: #F5F5F5;
+  color: black;
+
 `
 
 
-export {TopPart}
+export {TopPart, Azul, Terceiro}

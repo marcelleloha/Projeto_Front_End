@@ -1,35 +1,68 @@
 import styled from "styled-components"
 
 const Top = styled.header`
-  background-color: white;
-  margin: 0;
-  padding-left: 100px;
-  padding-right: 100px;
-  
-  #navbar {
-    display: flex;
-    justify-content: space-between;
+  @media (min-width: 1000px) {
     
-
-  }
-
-  #navegacao {
-    display: flex;
-    justify-content: space-between;
-    width: 400px
-  }
-
-  a {
-    text-decoration: none;
-    text-align: center;
-    color: #424242;
-    font-size: 14px;
-    padding-top: 28px
-
+    background-color: white;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-Color: #f5f5f5;
+    
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+      
+  
+    }
+  
+    #navegacao {
+      display: flex;
+      justify-content: space-between;
+      width: 400px
+    }
+  
+    a {
+      text-decoration: none;
+      text-align: center;
+      color: #424242;
+      font-size: 14px;
+      padding-top: 28px
+  
+    }
+    
+    img {
+      width: 70px
+    }
+    
+    #menu-hamburger {
+      display: none;
+    }
   }
   
-  img {
-    width: 70px
+  @media (max-width: 400px) {
+    img {
+      width: 70px
+    }
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 20px;
+      padding-right: 20px;
+  
+    }
+    
+  }
+
+  @media (max-width: 400px) {
+    #navegacao {
+      display: none; /* Oculta o menu normal */
+    }
+
+    #menu-hamburger {
+      display: block; /* Mostra o menu sanduíche */
+    }
   }
 `
 

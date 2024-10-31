@@ -47,6 +47,15 @@ const Container2 = styled.div `
         width: 100%;
     }
 `
+const Container3 = styled.div `
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 30px;
+`
 
-
-export {Container, Container2}
+export {Container, Container2, Container3} 

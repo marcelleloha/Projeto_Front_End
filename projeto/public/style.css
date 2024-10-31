@@ -22,11 +22,10 @@
 }
 
 /* borda vermelha em todos os elementos para debug */
-/*
-* {
+/** {
   outline: red solid 1px;
-}
-*/
+}*/
+
 
 body {
   margin: 0;

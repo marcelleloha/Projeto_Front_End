@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Container2 } from './Style'
+import { Container, Container2, Container3 } from './Style'
 import Select from 'react-select'
 import { FaSearch } from 'react-icons/fa'
 
@@ -19,6 +19,12 @@ const options2 = [
 
 ]
 const options3 = [
+  {value: '24/09/2024', label: '24/09/2024'},
+  {value: '24/09/2024', label: '24/09/2024'},
+  {value: '24/09/2024', label: '24/09/2024'},
+  {value: '24/09/2024', label: '24/09/2024'},
+  {value: '24/09/2024', label: '24/09/2024'},
+  {value: '24/09/2024', label: '24/09/2024'},
 
 
 ]
@@ -36,6 +42,9 @@ const options4 = [
 function Filtros() {
   return (
     <>
+    <Container3>
+      <p>Limpar filtros</p>
+    </Container3>
     <Container>
       <Select options={options1} placeholder='Tecnologia' className='select'/>
       <Select options={options2} placeholder='Unidade' className='select'/>

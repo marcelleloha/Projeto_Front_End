@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { Top } from "./Style";
 
+import MenuSanduiche from "../menuSanduiche/menuSanduiche";
+
 const Header = () => (
   <Top>
     <div id="navbar">
@@ -11,8 +13,9 @@ const Header = () => (
       </div>
       <div id="navegacao">
         <Link to="/">Home</Link>
-        <Link to="/fotos">Projetos</Link>
+        <Link to="/">Projetos</Link>
         <Link to="/sobrenos">Sobre o Projeto</Link>
+        
         {/*
           
           { window.sessionStorage.getItem('accessToken')
@@ -22,6 +25,9 @@ const Header = () => (
           */}
         
       
+      </div>
+      <div id="menu-hamburger">
+          <MenuSanduiche/>
       </div>
     </div>
     <div>

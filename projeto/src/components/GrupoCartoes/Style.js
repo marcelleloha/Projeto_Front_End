@@ -5,11 +5,18 @@ const Div = styled.div `
     margin-right: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
     gap: 5px;
     padding-bottom: 50px;
+    background-color: #F5F5F5;
+
+    
+    #no-underline {
+        text-decoration: none;
+        color: black;
+    }
 `
 
 export {Div}

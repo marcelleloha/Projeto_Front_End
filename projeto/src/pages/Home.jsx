@@ -6,6 +6,7 @@ import ParteAzul from "../components/ParteAzul/ParteAzul";
 import Cartao from "../components/Cartao/Cartao";
 import GrupoCartoes from "../components/GrupoCartoes/GrupoCartoes";
 import Filtros from "../components/Filtros/Filtros";
+import HamburgerMenu from "../components/menuSanduiche/menuSanduiche";
 
 const Home = () => {
 
@@ -13,13 +14,14 @@ const Home = () => {
   return (
     <Base>
       <ParteAzul
-        name="Portifólio de Projetos."
-        texto="Navegue pelos projetos ligados a instituição IBMEC."
+        name="Portfólio de Projetos"
+        texto="Navegue pelos projetos ligados a instituição IBMEC"
         imagem='imagens/heroimage.png'
       />
       <Filtros/>
-      <GrupoCartoes/>
-      <ParteAzul/>
+      <div id="test-redirect">
+        <GrupoCartoes/>
+      </div>
     </Base>
   );
 };
