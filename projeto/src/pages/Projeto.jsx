@@ -24,6 +24,7 @@ function ProjetoDetalhes() {
         tecnologias={projeto.tecnologias}
         unidade={projeto.unidade}
         periodo={projeto.periodo}
+        data={projeto.data}
         paragrafo={projeto.paragrafo}
       /> 
 
