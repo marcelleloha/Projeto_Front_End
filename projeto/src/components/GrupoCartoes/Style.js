@@ -94,5 +94,23 @@ const Container2 = styled.div `
         width: 100%;
     }
 `
+const Container = styled.div `
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
-export { Div, Container2 }
+    .select {
+        width: 200px;
+        text-align: center;
+
+    }
+
+`
+
+export { Div, Container2, Container }
