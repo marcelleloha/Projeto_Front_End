@@ -8,11 +8,11 @@ const Container = styled.div `
     display: flex;
     margin: 10px;
     padding: 15px 15px;
+    height: 380px;
 
     .titulo-cima {
         font-weight: bold;
         font-size: 20px;
-        padding-top: 10px;
         padding-bottom: 10px;
     }
     .titulo-baixo {
@@ -29,18 +29,19 @@ const Container = styled.div `
         font-size: 14px;   
     }
     .texto {
-        padding: 0.5rem
+        padding: 0.5rem;
     }
     .divPrincipal{
-        flex: 1 1 300px;
+        flex: 300px;
         box-sizing: border-box;
     }
 
     .corpo-card {
-        padding-bottom: 10px;
+        height: 350px;
         display: flex;
-        justify-content: center;
+
         flex-direction: column;
+        align-items: flex-start;
     }
 
     img {
@@ -59,6 +60,9 @@ const Container = styled.div `
     .class-botao {
         display: flex;
         justify-content: center;   
+    }
+    .titulo{
+        height: 50px;
     }
 
 `
