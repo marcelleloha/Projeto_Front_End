@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Container, Container2, Container3 } from './Style'
 import Select from 'react-select'
 import { FaSearch } from 'react-icons/fa'
+import brutos from '../../data/projects.json'
 
 const options1 = [
   {value: 'React', label: 'React'},
@@ -51,17 +52,8 @@ function Filtros() {
       <Select options={options3} placeholder='Data' className='select'/>
       <Select options={options4} placeholder='Período' className='select'/>
     </Container>
-    <Container2>
-      <div id='parteBaixo'>
-        <h1>Projetos</h1>
-        <div id='inputWraper'>
-          <FaSearch id='iconeDePesquisa'/>
-          <input placeholder='Pesquise Aqui'/>
-          
-        </div>
-      </div>
-    
-    </Container2>
+
+
     </>
   )
 }
