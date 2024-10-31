@@ -69,9 +69,6 @@ const Styles = styled.div`
 }
 #teste {
   background-color: #f5f5f5;
-  display: flex;
-  flex-direction: column;
-  
 }
 .link {
   color: black;

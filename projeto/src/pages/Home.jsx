@@ -22,7 +22,6 @@ const Home = () => {
       <div id="test-redirect">
         <GrupoCartoes/>
       </div>
-      <HamburgerMenu/>
     </Base>
   );
 };
