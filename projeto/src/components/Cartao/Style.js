@@ -54,6 +54,7 @@ const Container = styled.div `
         width: 100%;
         border-radius: 6px;
         padding: 5px 0;
+        cursor: pointer;
     }
 
     .class-botao {
@@ -65,43 +66,8 @@ const Container = styled.div `
         height: 50px;
     }
 
-    // Media query para telas médias (tablets)
-    @media (max-width: 1024px) {
-        width: 12em;
-        padding: 10px;
+    @media (max-width:400px) {
         
-        .titulo-cima {
-            font-size: 18px;
-        }
-        .texto-baixo {
-            font-size: 13px;
-        }
-        img {
-            height: 100px;
-        }
-    }
-
-    // Media query para telas pequenas (dispositivos móveis)
-    @media (max-width: 600px) {
-        width: 100%;
-        padding: 8px;
-        height: auto;
-
-        .titulo-cima {
-            font-size: 16px;
-        }
-        .titulo-baixo, .texto-baixo {
-            font-size: 12px;
-        }
-        img {
-            height: 80px;
-            width: 100%;
-            object-fit: cover;
-        }
-        .botao {
-            font-size: 14px;
-            padding: 4px 0;
-        }
     }
 `
 

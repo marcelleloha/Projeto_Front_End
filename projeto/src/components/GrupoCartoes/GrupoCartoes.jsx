@@ -109,28 +109,32 @@ function GrupoCartoes() {
         <Select
           options={options1}
           placeholder="Tecnologia"
-          className="select"
+          id="select"
           value={tecnologia} // Valor do filtro de tecnologia
           onChange={(option) => handleSelectChange(option?.value, setTecnologia, "tecnologia")}
+          classNames={{
+            control: (state) =>
+              state.isFocused ? 'border-red-600' : 'border-grey-300',
+          }}
         />
         <Select
           options={options2}
           placeholder="Unidade"
-          className="select"
+          id="select"
           value={unidade} // Valor do filtro de unidade
           onChange={(option) => handleSelectChange(option?.value, setUnidade, "unidade")}
         />
         <Select
           options={options3}
           placeholder="Data"
-          className="select"
+          id="select"
           value={data} // Valor do filtro de data
           onChange={(option) => handleSelectChange(option?.value, setData, "data")}
         />
         <Select
           options={options4}
           placeholder="Período"
-          className="select"
+          id="select"
           value={periodo} // Valor do filtro de período
           onChange={(option) => handleSelectChange(option?.value, setPeriodo, "periodo")}
         />
@@ -158,6 +162,7 @@ function GrupoCartoes() {
               textoBaixoTec={item.tecnologias}
               textoBaixoUn={item.unidade}
               textoBaixoPe={item.periodo}
+              
             />
           </Link>
         ))}
