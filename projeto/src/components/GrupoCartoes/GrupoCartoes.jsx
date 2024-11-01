@@ -42,20 +42,22 @@ function GrupoCartoes() {
   const [unidade, setUnidade] = useState(null);
   const [data, setData] = useState(null);
   const [periodo, setPeriodo] = useState(null);
+  
 
   // Atualiza `searchParams` e os estados dos seletores
-  const handleSelectChange = (value, setValue, key) => {
-    setValue(value);
+  const handleSelectChange = (option, setValue, key) => {
+    setValue(option); // Salva o objeto inteiro no estado
     setSearchParams((prevParams) => {
       const newParams = new URLSearchParams(prevParams);
-      if (value) {
-        newParams.set(key, value);
+      if (option) {
+        newParams.set(key, option.value);
       } else {
         newParams.delete(key);
       }
       return newParams;
     });
   };
+  
 
   // Aplica os filtros usando `searchParams`
   useEffect(() => {
@@ -106,38 +108,35 @@ function GrupoCartoes() {
   return (
     <>
       <Container>
-        <Select
+          <Select
           options={options1}
           placeholder="Tecnologia"
           id="select"
-          value={tecnologia} // Valor do filtro de tecnologia
-          onChange={(option) => handleSelectChange(option?.value, setTecnologia, "tecnologia")}
-          classNames={{
-            control: (state) =>
-              state.isFocused ? 'border-red-600' : 'border-grey-300',
-          }}
-        />
-        <Select
-          options={options2}
-          placeholder="Unidade"
-          id="select"
-          value={unidade} // Valor do filtro de unidade
-          onChange={(option) => handleSelectChange(option?.value, setUnidade, "unidade")}
-        />
-        <Select
-          options={options3}
-          placeholder="Data"
-          id="select"
-          value={data} // Valor do filtro de data
-          onChange={(option) => handleSelectChange(option?.value, setData, "data")}
-        />
-        <Select
-          options={options4}
-          placeholder="Período"
-          id="select"
-          value={periodo} // Valor do filtro de período
-          onChange={(option) => handleSelectChange(option?.value, setPeriodo, "periodo")}
-        />
+          value={tecnologia} // Agora usa o objeto completo
+          onChange={(option) => handleSelectChange(option, setTecnologia, "tecnologia")}
+          />
+          <Select
+            options={options2}
+            placeholder="Unidade"
+            id="select"
+            value={unidade}
+            onChange={(option) => handleSelectChange(option, setUnidade, "unidade")}
+          />
+          <Select
+            options={options3}
+            placeholder="Data"
+            id="select"
+            value={data}
+            onChange={(option) => handleSelectChange(option, setData, "data")}
+          />
+          <Select
+            options={options4}
+            placeholder="Período"
+            id="select"
+            value={periodo}
+            onChange={(option) => handleSelectChange(option, setPeriodo, "periodo")}
+          />
+    
         <button onClick={limparFiltros} className="limpar-filtros">Limpar Filtros</button>
       </Container>
       <Container2>
