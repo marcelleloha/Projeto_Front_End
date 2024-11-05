@@ -27,6 +27,7 @@ function ProjetoDetalhes() {
         data={projeto.data}
         paragrafo={projeto.paragrafo}
       /> 
+      
 
     </Base>
   );

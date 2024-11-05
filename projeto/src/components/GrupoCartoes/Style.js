@@ -5,6 +5,7 @@ const Div = styled.div `
         
         margin-left: 100px;
         margin-right: 100px;
+        margin-bottom: 30px;
     }
     display: flex;
     flex-direction: row;
@@ -100,7 +101,7 @@ const Container = styled.div `
         padding-right: 10px;
         min-height: 38px;
         cursor: pointer;
-        width: 100%;
+        width: 30%;
     }
     .limpar-filtros:hover{
         background-color: #ffffff;

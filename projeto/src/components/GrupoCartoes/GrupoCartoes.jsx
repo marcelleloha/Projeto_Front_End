@@ -81,7 +81,7 @@ function GrupoCartoes() {
   // Função de pesquisa
   const filtra = (entrada) => {
     const dadosFiltradosPorNome = dadosOriginais.filter((elemento) =>
-      elemento.titulo.toLowerCase().includes(entrada.toLowerCase()) || elemento.unidade.toLowerCase().includes(entrada.toLowerCase())
+      elemento.titulo.toLowerCase().includes(entrada.toLowerCase()) || elemento.unidade.toLowerCase().includes(entrada.toLowerCase()) || elemento.periodo.toLowerCase().includes(entrada.toLowerCase())
     );
     setDados(dadosFiltradosPorNome);
   };
