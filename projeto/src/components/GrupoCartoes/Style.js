@@ -110,4 +110,31 @@ const Container = styled.div `
 
 `
 
-export { Div, Container2, Container }
+const Container3 = styled.div `
+.paginacao {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.paginacao button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.paginacao button.ativo {
+  background-color: #FFA500; /* Cor amarela para a página ativa */
+  color: white;
+}
+
+`
+
+export { Div, Container2, Container,Container3 }

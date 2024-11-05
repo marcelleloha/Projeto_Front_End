@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import Cartao from '../Cartao/Cartao';
-import { Div, Container2, Container } from './Style';
+import { Div, Container2, Container, Container3 } from './Style';
 import { Link, useParams, useSearchParams } from "react-router-dom";
 import dadosOriginais from '../../data/projects.json';
 import { FaSearch } from 'react-icons/fa';
 import Select from 'react-select';
+
+// Seus arrays de opções (options1, options2, etc.)
 
 const options1 = [
   { value: 'React', label: 'React' },
@@ -43,10 +45,26 @@ function GrupoCartoes() {
   const [data, setData] = useState(null);
   const [periodo, setPeriodo] = useState(null);
   
+  // Estados de paginação
+  const [paginaAtual, setPaginaAtual] = useState(1);
+  const cardsPorPagina = 10;
 
-  // Atualiza `searchParams` e os estados dos seletores
+  // Calcula os dados da página atual
+  const indiceUltimoCard = paginaAtual * cardsPorPagina;
+  const indicePrimeiroCard = indiceUltimoCard - cardsPorPagina;
+  const dadosPaginaAtual = dados.slice(indicePrimeiroCard, indiceUltimoCard);
+
+  // Número total de páginas
+  const numeroTotalPaginas = Math.ceil(dados.length / cardsPorPagina);
+
+  // Função para mudar de página
+  const irParaPagina = (numero) => {
+    setPaginaAtual(numero);
+  };
+
+  // Função para atualizar os filtros
   const handleSelectChange = (option, setValue, key) => {
-    setValue(option); // Salva o objeto inteiro no estado
+    setValue(option);
     setSearchParams((prevParams) => {
       const newParams = new URLSearchParams(prevParams);
       if (option) {
@@ -57,9 +75,8 @@ function GrupoCartoes() {
       return newParams;
     });
   };
-  
 
-  // Aplica os filtros usando `searchParams`
+  // Aplicar os filtros
   useEffect(() => {
     const filtroTecnologia = searchParams.get("tecnologia") || "";
     const filtroUnidade = searchParams.get("unidade") || "";
@@ -76,6 +93,7 @@ function GrupoCartoes() {
     });
 
     setDados(resultadoFiltrado);
+    setPaginaAtual(1); // Reseta para a primeira página ao aplicar filtros
   }, [searchParams]);
 
   // Função de pesquisa
@@ -84,6 +102,7 @@ function GrupoCartoes() {
       elemento.titulo.toLowerCase().includes(entrada.toLowerCase()) || elemento.unidade.toLowerCase().includes(entrada.toLowerCase()) || elemento.periodo.toLowerCase().includes(entrada.toLowerCase())
     );
     setDados(dadosFiltradosPorNome);
+    setPaginaAtual(1); // Reseta para a primeira página ao fazer pesquisa
   };
 
   // Filtra `dados` pelo `id` quando ele estiver presente
@@ -97,46 +116,46 @@ function GrupoCartoes() {
 
   // Função para limpar filtros
   const limparFiltros = () => {
-    setSearchParams({}); // Limpa todos os parâmetros de busca
-    setDados(dadosOriginais); // Restaura todos os dados
-    setTecnologia(null); // Reseta o estado do filtro de tecnologia
-    setUnidade(null); // Reseta o estado do filtro de unidade
-    setData(null); // Reseta o estado do filtro de data
-    setPeriodo(null); // Reseta o estado do filtro de período
+    setSearchParams({});
+    setDados(dadosOriginais);
+    setTecnologia(null);
+    setUnidade(null);
+    setData(null);
+    setPeriodo(null);
+    setPaginaAtual(1); // Reseta para a primeira página ao limpar filtros
   };
 
   return (
     <>
       <Container>
-          <Select
+        <Select
           options={options1}
           placeholder="Tecnologia"
           id="select"
-          value={tecnologia} // Agora usa o objeto completo
+          value={tecnologia}
           onChange={(option) => handleSelectChange(option, setTecnologia, "tecnologia")}
-          />
-          <Select
-            options={options2}
-            placeholder="Unidade"
-            id="select"
-            value={unidade}
-            onChange={(option) => handleSelectChange(option, setUnidade, "unidade")}
-          />
-          <Select
-            options={options3}
-            placeholder="Data"
-            id="select"
-            value={data}
-            onChange={(option) => handleSelectChange(option, setData, "data")}
-          />
-          <Select
-            options={options4}
-            placeholder="Período"
-            id="select"
-            value={periodo}
-            onChange={(option) => handleSelectChange(option, setPeriodo, "periodo")}
-          />
-    
+        />
+        <Select
+          options={options2}
+          placeholder="Unidade"
+          id="select"
+          value={unidade}
+          onChange={(option) => handleSelectChange(option, setUnidade, "unidade")}
+        />
+        <Select
+          options={options3}
+          placeholder="Data"
+          id="select"
+          value={data}
+          onChange={(option) => handleSelectChange(option, setData, "data")}
+        />
+        <Select
+          options={options4}
+          placeholder="Período"
+          id="select"
+          value={periodo}
+          onChange={(option) => handleSelectChange(option, setPeriodo, "periodo")}
+        />
         <button onClick={limparFiltros} className="limpar-filtros">Limpar Filtros</button>
       </Container>
       <Container2>
@@ -152,7 +171,7 @@ function GrupoCartoes() {
         </div>
       </Container2>
       <Div>
-        {dados.map((item) => (
+        {dadosPaginaAtual.map((item) => (
           <Link to={`/projeto/${item.id}`} key={item.id} id="no-underline">
             <Cartao
               tituloCima={item.titulo}
@@ -161,11 +180,25 @@ function GrupoCartoes() {
               textoBaixoTec={item.tecnologias}
               textoBaixoUn={item.unidade}
               textoBaixoPe={item.periodo}
-              
             />
           </Link>
         ))}
       </Div>
+      {/* Controles de Paginação */}
+      <Container3>
+      
+        <div className="paginacao">
+          {Array.from({ length: numeroTotalPaginas }, (_, index) => (
+            <button
+              key={index}
+              onClick={() => irParaPagina(index + 1)}
+              className={paginaAtual === index + 1 ? 'ativo' : ''}
+            >
+              {index + 1}
+            </button>
+          ))}
+        </div>
+      </Container3>
     </>
   );
 }
