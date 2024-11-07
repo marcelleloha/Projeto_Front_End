@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-const Container = styled.div `
+const Container = styled.div `  
     width: 15em;
     border-radius: 5px;
     background-color: #F5F5F5;
@@ -40,6 +40,9 @@ const Container = styled.div `
         border-radius: 6px;
         width: 100%;
         font-size: 28px;
+    }
+    button:hover {
+        background-color: #f57c00;
     }
 
 `
