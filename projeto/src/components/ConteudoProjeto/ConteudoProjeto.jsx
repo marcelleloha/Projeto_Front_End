@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContainerFiltros, ContainerDescricao } from './Style';
+import { ContainerFiltros, ContainerDescricao, ContainerDeTec, Integrantes } from './Style';
 
 
 function ConteudoProjeto(props) {
@@ -37,6 +37,23 @@ function ConteudoProjeto(props) {
           <img src={props.imagem} className='imagem'></img>
         </div>
       </ContainerDescricao>
+      <ContainerDeTec>
+        <div id='tec1'>
+          <p>{props.titulotec}</p>
+          <img src={props.imgtec}/>
+          <p>{props.textotec}</p>
+        
+        </div>
+        <div id='tec2'>
+          <p>{props.titulotec2}</p>
+          <img src={props.imgtec2}/>
+          <p>{props.textotec2}</p>
+        
+        </div>
+      </ContainerDeTec>
+      <Integrantes>
+        
+      </Integrantes>
     </>
   );
 } 

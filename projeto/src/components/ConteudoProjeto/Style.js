@@ -50,5 +50,45 @@ const ContainerDescricao = styled.div `
     }
 
 `
+const ContainerDeTec = styled.div `
 
-export {ContainerFiltros, ContainerDescricao} 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: rgb(0, 37, 85);
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    #tec1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        gap: 20px;
+    }
+    #tec2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 1000px;
+        gap: 20px;
+    }
+
+`
+const Integrantes = styled.div `
+
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #f5f5f5
+
+`
+
+export {ContainerFiltros, ContainerDescricao, ContainerDeTec, Integrantes} 
