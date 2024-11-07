@@ -7,7 +7,7 @@ const Container = styled.div `
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .08);
     display: flex;
     margin: 10px;
-    padding: 15px;
+    padding: 15px 15px;
     height: auto;
 
     .titulo-cima {
