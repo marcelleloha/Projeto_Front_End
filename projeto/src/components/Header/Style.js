@@ -40,7 +40,8 @@ const Top = styled.header`
     }
   }
   
-  @media (max-width: 400px) {
+  @media (max-width: 420px) {
+
     img {
       width: 70px
     }
@@ -53,17 +54,15 @@ const Top = styled.header`
   
     }
     
-  }
-
-  @media (max-width: 400px) {
     #navegacao {
       display: none; /* Oculta o menu normal */
     }
-
+  
     #menu-hamburger {
       display: block; /* Mostra o menu sanduíche */
     }
   }
+
 `
 
 export {Top}

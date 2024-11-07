@@ -20,7 +20,7 @@ const Container = styled.div `
         color: #424242;
         font-weight: bold;
         padding-bottom: 5px;
-        padding-top: 10px
+        padding-top: 10px;
     }
 
     .texto-baixo {
@@ -39,7 +39,6 @@ const Container = styled.div `
     .corpo-card {
         height: 350px;
         display: flex;
-
         flex-direction: column;
         align-items: flex-start;
     }
@@ -54,19 +53,22 @@ const Container = styled.div `
         font-size: 16px;
         width: 100%;
         border-radius: 6px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 5px 0;
+        cursor: pointer;
     }
+
     .class-botao {
         display: flex;
         justify-content: center;   
     }
-    .titulo{
+    
+    .titulo {
         height: 50px;
     }
 
+    @media (max-width:400px) {
+        
+    }
 `
 
-
-
-export {Container}
+export { Container }
