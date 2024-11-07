@@ -40,6 +40,7 @@ function GrupoCartoes() {
   const [unidade, setUnidade] = useState(null);
   const [data, setData] = useState(null);
   const [periodo, setPeriodo] = useState(null);
+
   
   const [paginaAtual, setPaginaAtual] = useState(1);
   const cardsPorPagina = 10;
@@ -72,13 +73,23 @@ function GrupoCartoes() {
     const filtroUnidade = searchParams.get("unidade") || "";
     const filtroData = searchParams.get("data") || "";
     const filtroPeriodo = searchParams.get("periodo") || "";
+    const filtroNome = searchParams.get("nome") || "";
 
     const resultadoFiltrado = dadosOriginais.filter((elemento) => {
+
+      const matchNomeIntegrante = Array.isArray(elemento.integrantes) &&
+      elemento.integrantes.some((integrante) =>
+        integrante.includes(filtroNome)
+      );
+
       return (
         (filtroTecnologia ? elemento.tecnologias.includes(filtroTecnologia) : true) &&
         (filtroUnidade ? elemento.unidade.includes(filtroUnidade) : true) &&
         (filtroData ? elemento.data.includes(filtroData) : true) &&
-        (filtroPeriodo ? elemento.periodo.includes(filtroPeriodo) : true)
+        (filtroPeriodo ? elemento.periodo.includes(filtroPeriodo) : true) &&
+        (filtroNome ? matchNomeIntegrante : true)
+
+
       );
     });
 
