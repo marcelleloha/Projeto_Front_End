@@ -88,7 +88,7 @@ function GrupoCartoes() {
 
   const filtra = (entrada) => {
     const dadosFiltradosPorNome = dadosOriginais.filter((elemento) =>
-      elemento.titulo.toLowerCase().includes(entrada.toLowerCase()) || elemento.unidade.toLowerCase().includes(entrada.toLowerCase()) || elemento.periodo.toLowerCase().includes(entrada.toLowerCase())
+      elemento.titulo.toLowerCase().includes(entrada.toLowerCase()) || elemento.unidade.toLowerCase().includes(entrada.toLowerCase()) || elemento.periodo.toLowerCase().includes(entrada.toLowerCase()) || elemento.tecnologias.toLowerCase().includes(entrada.toLowerCase())
     );
     setDados(dadosFiltradosPorNome);
     setPaginaAtual(1);
