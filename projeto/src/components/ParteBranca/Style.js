@@ -1,7 +1,9 @@
 import styled from "styled-components"
 
 const TopPart = styled.header `
-  background-color: #F5F5F5;
+
+  @media (min-width: 1000px){
+    background-color: #F5F5F5;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 70px;
@@ -77,9 +79,100 @@ const TopPart = styled.header `
   #parteAzul{
     background-color: #002555;
   }
+  } 
+
+  @media (max-width: 400px){
+    background-color: #F5F5F5;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  #topnav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+  }
+  #titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    
+  }
+  #tituloreal {
+    font-weight: bold;
+    font-size: 21px;
+    width:100%;
+    max-width: 100%;
+    height: auto;
+
+  }
+  #texto {
+    font-size: 18px;
+    width: 450px;
+    font-weight: lighter;
+  }
+  p {
+    color: black;
+  }
+  #Hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  img {
+    width:100%;
+    max-width: 100%;
+    height: auto;
+
+  }
+  #HeroEsquerda {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  button{
+    border-radius: 20px;
+    padding: 10px
+  }
+  #botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 40px;
+  }
+  #botao1{
+    background-color: #F5AC00;
+    border: 0
+  }
+  #botao2{
+    background-color: #F5F5F5;
+    border: 2px solid #F5AC00
+  }
+
+  #conteudo-azul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #imagemProjeto{
+    width: 50%;
+    height: 50%;
+  }
+  #parteAzul{
+    background-color: #002555;
+  }
+  }
+  
 `
 const Azul = styled.header `
-  padding-left: 100px;
+  @media (min-width:1000px){
+    padding-left: 100px;
   padding-right: 100px;
   padding-top: 70px;
   padding-bottom: 70px;
@@ -106,8 +199,12 @@ const Azul = styled.header `
   #parteAzul{
     background-color: #002555;
   }
+  }
+  
 `
 const Terceiro = styled.header `
+
+@media (max-width:1000px) {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 70px;
@@ -115,6 +212,7 @@ const Terceiro = styled.header `
   background-color: #F5F5F5;
   color: black;
 
+}
 `
 
 
