@@ -6,8 +6,6 @@ import dadosOriginais from '../../data/projects.json';
 import { FaSearch } from 'react-icons/fa';
 import Select from 'react-select';
 
-// Seus arrays de opções (options1, options2, etc.)
-
 const options1 = [
   { value: 'React', label: 'React' },
   { value: 'Node', label: 'Node' },
@@ -23,7 +21,6 @@ const options2 = [
 ];
 const options3 = [
   { value: '24/09/2024', label: '24/09/2024' },
-  // Adicione outras datas conforme necessário
 ];
 const options4 = [
   { value: '2022.1', label: '2022.1' },
@@ -39,30 +36,24 @@ function GrupoCartoes() {
   const [dados, setDados] = useState(dadosOriginais);
   const [searchParams, setSearchParams] = useSearchParams();
   
-  // Estados para os seletores
   const [tecnologia, setTecnologia] = useState(null);
   const [unidade, setUnidade] = useState(null);
   const [data, setData] = useState(null);
   const [periodo, setPeriodo] = useState(null);
   
-  // Estados de paginação
   const [paginaAtual, setPaginaAtual] = useState(1);
   const cardsPorPagina = 10;
 
-  // Calcula os dados da página atual
   const indiceUltimoCard = paginaAtual * cardsPorPagina;
   const indicePrimeiroCard = indiceUltimoCard - cardsPorPagina;
   const dadosPaginaAtual = dados.slice(indicePrimeiroCard, indiceUltimoCard);
 
-  // Número total de páginas
   const numeroTotalPaginas = Math.ceil(dados.length / cardsPorPagina);
 
-  // Função para mudar de página
   const irParaPagina = (numero) => {
     setPaginaAtual(numero);
   };
 
-  // Função para atualizar os filtros
   const handleSelectChange = (option, setValue, key) => {
     setValue(option);
     setSearchParams((prevParams) => {
@@ -76,7 +67,6 @@ function GrupoCartoes() {
     });
   };
 
-  // Aplicar os filtros
   useEffect(() => {
     const filtroTecnologia = searchParams.get("tecnologia") || "";
     const filtroUnidade = searchParams.get("unidade") || "";
@@ -93,19 +83,17 @@ function GrupoCartoes() {
     });
 
     setDados(resultadoFiltrado);
-    setPaginaAtual(1); // Reseta para a primeira página ao aplicar filtros
+    setPaginaAtual(1);
   }, [searchParams]);
 
-  // Função de pesquisa
   const filtra = (entrada) => {
     const dadosFiltradosPorNome = dadosOriginais.filter((elemento) =>
       elemento.titulo.toLowerCase().includes(entrada.toLowerCase()) || elemento.unidade.toLowerCase().includes(entrada.toLowerCase()) || elemento.periodo.toLowerCase().includes(entrada.toLowerCase())
     );
     setDados(dadosFiltradosPorNome);
-    setPaginaAtual(1); // Reseta para a primeira página ao fazer pesquisa
+    setPaginaAtual(1);
   };
 
-  // Filtra `dados` pelo `id` quando ele estiver presente
   useEffect(() => {
     if (id) {
       setDados((prevDados) => prevDados.filter((elemento) => elemento.id === parseInt(id)));
@@ -114,7 +102,6 @@ function GrupoCartoes() {
     }
   }, [id]);
 
-  // Função para limpar filtros
   const limparFiltros = () => {
     setSearchParams({});
     setDados(dadosOriginais);
@@ -122,7 +109,7 @@ function GrupoCartoes() {
     setUnidade(null);
     setData(null);
     setPeriodo(null);
-    setPaginaAtual(1); // Reseta para a primeira página ao limpar filtros
+    setPaginaAtual(1);
   };
 
   return (

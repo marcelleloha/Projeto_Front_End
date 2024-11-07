@@ -9,7 +9,7 @@ function ProjetoDetalhes() {
   const { id } = useParams()
   const projeto = dados.find(el => el.id === parseInt(id))
 
-  if (!projeto) {
+  if (!projeto) {''
     return <p>Projeto não encontrado!</p>
   }
 
