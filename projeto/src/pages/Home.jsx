@@ -5,7 +5,6 @@ import { auth } from "../config/Firebase";
 import ParteAzul from "../components/ParteAzul/ParteAzul";
 import Cartao from "../components/Cartao/Cartao";
 import GrupoCartoes from "../components/GrupoCartoes/GrupoCartoes";
-import Filtros from "../components/Filtros/Filtros";
 import HamburgerMenu from "../components/menuSanduiche/menuSanduiche";
 
 const Home = () => {
@@ -18,7 +17,6 @@ const Home = () => {
         texto="Navegue pelos projetos ligados a instituição IBMEC"
         imagem='imagens/heroimage.png'
       />
-      <Filtros/>
       <div id="test-redirect">
         <GrupoCartoes/>
       </div>

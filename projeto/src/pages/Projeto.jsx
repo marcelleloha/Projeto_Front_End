@@ -9,7 +9,7 @@ function ProjetoDetalhes() {
   const { id } = useParams()
   const projeto = dados.find(el => el.id === parseInt(id))
 
-  if (!projeto) {
+  if (!projeto) {''
     return <p>Projeto não encontrado!</p>
   }
 
@@ -26,7 +26,14 @@ function ProjetoDetalhes() {
         periodo={projeto.periodo}
         data={projeto.data}
         paragrafo={projeto.paragrafo}
+        titulotec={projeto.Tec1}
+        imgtec={projeto.Tecimg1}
+        textotec={projeto.Tecdec1}
+        titulotec2={projeto.Tec2}
+        imgtec2={projeto.Tecimg2}
+        textotec2={projeto.Tecdec2}
       /> 
+      
 
     </Base>
   );

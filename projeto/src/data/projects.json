@@ -9,7 +9,14 @@
     "periodo": "2024.2",
     "data": "24/09/2024",
     "dec": "Projeto desenvolvido para simular uma plataforma de software as a service.",
-    "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+    "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
+    "integrantes": ["Franc", "Joao", "Maria"]
   },
   {
     "id": 2,
@@ -21,7 +28,8 @@
     "periodo": "2024.1",
     "data": "24/09/2024",
     "dec": "Aplicativo mobile para lojas de e-commerce, permitindo compras e pagamentos diretamente via app.",
-    "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+    "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    "integrantes": ["Arthur"]
   },
   {
     "id": 3,
@@ -33,7 +41,8 @@
     "periodo": "2023.2",
     "data": "24/09/2024",
     "dec": "Sistema completo para gestão de empresas, desde o controle de estoque até a emissão de relatórios financeiros.",
-    "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+    "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    "integrantes": ["Tiago"]
   },
   {
     "id": 4,
@@ -166,5 +175,234 @@
     "data": "24/09/2024",
     "dec": "Sistema para gerenciamento de tarefas, com suporte a diferentes projetos e colaboração em equipe.",
     "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."
+  }, 
+  {
+    "id": 15,
+    "titulo": "Aplicativo de Educação Infantil",
+    "texto": "Descrição do Projeto 15",
+    "imagem": "imagens/projeto3.png",
+    "tecnologias": "Flutter, Firebase",
+    "unidade": "Rio-Centro",
+    "periodo": "2024.1",
+    "data": "24/09/2024",
+    "dec": "App interativo para aprendizado infantil, com jogos educativos e controle parental.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 16,
+    "titulo": "Plataforma de Doações Online",
+    "texto": "Descrição do Projeto 16",
+    "imagem": "imagens/projeto4.png",
+    "tecnologias": "React, Node.js",
+    "unidade": "São Paulo",
+    "periodo": "2023.2",
+    "data": "24/09/2024",
+    "dec": "Plataforma para facilitar doações online a ONGs e instituições de caridade.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 17,
+    "titulo": "Site de Viagens e Turismo",
+    "texto": "Descrição do Projeto 17",
+    "imagem": "imagens/projeto1.png",
+    "tecnologias": "Vue.js, TailwindCSS",
+    "unidade": "Belo Horizonte",
+    "periodo": "2024.2",
+    "data": "24/09/2024",
+    "dec": "Site informativo sobre destinos turísticos e pacotes de viagens.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 18,
+    "titulo": "Plataforma de Recrutamento",
+    "texto": "Descrição do Projeto 18",
+    "imagem": "imagens/projeto2.png",
+    "tecnologias": "Angular, Firebase",
+    "unidade": "Rio-Barra",
+    "periodo": "2024.1",
+    "data": "24/09/2024",
+    "dec": "Sistema para recrutamento e seleção de candidatos, com análise de currículos e entrevistas virtuais.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 19,
+    "titulo": "Sistema de Gestão Escolar",
+    "texto": "Descrição do Projeto 19",
+    "imagem": "imagens/projeto3.png",
+    "tecnologias": "Django, PostgreSQL",
+    "unidade": "DF",
+    "periodo": "2023.1",
+    "data": "24/09/2024",
+    "dec": "Sistema completo para gestão de escolas, com cadastro de alunos, professores e notas.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 20,
+    "titulo": "Portal de Notícias",
+    "texto": "Descrição do Projeto 20",
+    "imagem": "imagens/projeto4.png",
+    "tecnologias": "WordPress, PHP",
+    "unidade": "Rio-Centro",
+    "periodo": "2024.2",
+    "data": "24/09/2024",
+    "dec": "Portal de notícias responsivo com categorias e sistema de busca.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 21,
+    "titulo": "Sistema de Reservas de Mesas",
+    "texto": "Descrição do Projeto 21",
+    "imagem": "imagens/projeto1.png",
+    "tecnologias": "React, Firebase",
+    "unidade": "São Paulo",
+    "periodo": "2024.1",
+    "data": "24/09/2024",
+    "dec": "Aplicativo para reservas de mesas em restaurantes, com confirmação em tempo real.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 22,
+    "titulo": "App para Compartilhamento de Caronas",
+    "texto": "Descrição do Projeto 22",
+    "imagem": "imagens/projeto2.png",
+    "tecnologias": "Flutter, Google Maps API",
+    "unidade": "Belo Horizonte",
+    "periodo": "2023.2",
+    "data": "24/09/2024",
+    "dec": "App de caronas que conecta usuários próximos para compartilhamento de veículos.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 23,
+    "titulo": "Plataforma de Investimentos",
+    "texto": "Descrição do Projeto 23",
+    "imagem": "imagens/projeto3.png",
+    "tecnologias": "Vue.js, Django",
+    "unidade": "Rio-Barra",
+    "periodo": "2023.1",
+    "data": "24/09/2024",
+    "dec": "Plataforma para gestão de portfólio de investimentos com análise de mercado.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 24,
+    "titulo": "Aplicativo de Fitness",
+    "texto": "Descrição do Projeto 24",
+    "imagem": "imagens/projeto4.png",
+    "tecnologias": "React Native, Redux",
+    "unidade": "DF",
+    "periodo": "2024.2",
+    "data": "24/09/2024",
+    "dec": "Aplicativo para monitoramento de atividades físicas e controle de dieta.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 25,
+    "titulo": "Sistema de Controle de Estoque",
+    "texto": "Descrição do Projeto 25",
+    "imagem": "imagens/projeto1.png",
+    "tecnologias": "PHP, MySQL",
+    "unidade": "Rio-Centro",
+    "periodo": "2024.1",
+    "data": "24/09/2024",
+    "dec": "Sistema para gestão de estoque em tempo real, com controle de entrada e saída de produtos.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 26,
+    "titulo": "Plataforma de Ensino à Distância",
+    "texto": "Descrição do Projeto 26",
+    "imagem": "imagens/projeto2.png",
+    "tecnologias": "Moodle, PHP",
+    "unidade": "São Paulo",
+    "periodo": "2023.2",
+    "data": "24/09/2024",
+    "dec": "Plataforma para ensino a distância, com módulos interativos e avaliações online.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 27,
+    "titulo": "Sistema de Controle de Finanças Pessoais",
+    "texto": "Descrição do Projeto 27",
+    "imagem": "imagens/projeto3.png",
+    "tecnologias": "Flutter, Firebase",
+    "unidade": "Belo Horizonte",
+    "periodo": "2024.2",
+    "data": "24/09/2024",
+    "dec": "App para gestão de finanças pessoais, com gráficos e alertas personalizados.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 28,
+    "titulo": "Sistema de Atendimento ao Cliente",
+    "texto": "Descrição do Projeto 28",
+    "imagem": "imagens/projeto4.png",
+    "tecnologias": "Node.js, MongoDB",
+    "unidade": "Rio-Barra",
+    "periodo": "2023.1",
+    "data": "24/09/2024",
+    "dec": "Sistema para gestão de atendimento ao cliente, com histórico de interações.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 29,
+    "titulo": "Website de Notícias para Universidade",
+    "texto": "Descrição do Projeto 29",
+    "imagem": "imagens/projeto1.png",
+    "tecnologias": "React, Firebase",
+    "unidade": "DF",
+    "periodo": "2024.1",
+    "data": "24/09/2024",
+    "dec": "Website de notícias e eventos acadêmicos, com sistema de publicações por área.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 30,
+    "titulo": "Aplicativo para Gestão de Eventos",
+    "texto": "Descrição do Projeto 30",
+    "imagem": "imagens/projeto2.png",
+    "tecnologias": "React Native, Firebase",
+    "unidade": "Rio-Centro",
+    "periodo": "2024.2",
+    "data": "24/09/2024",
+    "dec": "App para organização e inscrição de eventos, com emissão de ingressos.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 31,
+    "titulo": "Plataforma para Consultas Médicas",
+    "texto": "Descrição do Projeto 31",
+    "imagem": "imagens/projeto3.png",
+    "tecnologias": "Angular, Node.js",
+    "unidade": "São Paulo",
+    "periodo": "2023.2",
+    "data": "24/09/2024",
+    "dec": "Sistema de agendamento e consultas online com histórico de atendimento.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 32,
+    "titulo": "Sistema para Gestão de Processos Jurídicos",
+    "texto": "Descrição do Projeto 32",
+    "imagem": "imagens/projeto4.png",
+    "tecnologias": "Django, PostgreSQL",
+    "unidade": "Belo Horizonte",
+    "periodo": "2024.2",
+    "data": "24/09/2024",
+    "dec": "Plataforma para gestão de processos jurídicos com cadastro de clientes e documentos.",
+    "paragrafo": "Lorem Ipsum..."
+  },
+  {
+    "id": 33,
+    "titulo": "Portal de Comunidade Acadêmica",
+    "texto": "Descrição do Projeto 33",
+    "imagem": "imagens/projeto1.png",
+    "tecnologias": "Vue.js, Node.js",
+    "unidade": "Rio-Barra",
+    "periodo": "2023.1",
+    "data": "24/09/2024",
+    "dec": "Portal para interação entre alunos e professores, com fórum de dúvidas e troca de informações.",
+    "paragrafo": "Lorem Ipsum..."
   }
+  
 ]
