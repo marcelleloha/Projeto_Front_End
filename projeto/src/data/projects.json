@@ -16,7 +16,40 @@
     "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
     "Tecimg1": "imagens/reactjs.png",
     "Tecimg2": "imagens/tailwind.png",
-    "integrantes": ["Franc", "Joao", "Maria"]
+    "integrantes": [
+    {
+      "nome": "Franc",
+      "email": "franc@example.com",
+      "curso": "Engenharia de Software",
+      "periodo": "2024.2"
+    },
+    {
+      "nome": "Joao",
+      "email": "joao@example.com",
+      "curso": "Ciência da Computação",
+      "periodo": "2024.2"
+    },
+    {
+      "nome": "Maria",
+      "email": "maria@example.com",
+      "curso": "Sistemas de Informação",
+      "periodo": "2024.2"
+    }
+  ],
+    "professores": [
+    {
+      "nome": "Eduardo Mangelli",
+      "email": "Eduardo@example.com",
+      "curso": "Front-end",
+      "periodo": "2024.2"
+    },
+    {
+      "nome": "Victor",
+      "email": "Victor@example.com",
+      "curso": "Design",
+      "periodo": "2024.2"
+    }
+  ]
   },
   {
     "id": 2,
