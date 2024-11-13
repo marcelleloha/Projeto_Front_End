@@ -74,25 +74,23 @@ function GrupoCartoes() {
     const filtroData = searchParams.get("data") || "";
     const filtroPeriodo = searchParams.get("periodo") || "";
     const filtroNome = searchParams.get("nome") || "";
-
+  
     const resultadoFiltrado = dadosOriginais.filter((elemento) => {
-
+      // Filtra pelo nome do integrante
       const matchNomeIntegrante = Array.isArray(elemento.integrantes) &&
-      elemento.integrantes.some((integrante) =>
-        integrante.includes(filtroNome)
-      );
-
+        elemento.integrantes.some((integrante) =>
+          integrante.nome.toLowerCase().includes(filtroNome.toLowerCase()) // Verifica se o nome do integrante contém o filtro
+        );
+  
       return (
         (filtroTecnologia ? elemento.tecnologias.includes(filtroTecnologia) : true) &&
         (filtroUnidade ? elemento.unidade.includes(filtroUnidade) : true) &&
         (filtroData ? elemento.data.includes(filtroData) : true) &&
         (filtroPeriodo ? elemento.periodo.includes(filtroPeriodo) : true) &&
-        (filtroNome ? matchNomeIntegrante : true)
-
-
+        (filtroNome ? matchNomeIntegrante : true) // Aplica o filtro de nome
       );
     });
-
+  
     setDados(resultadoFiltrado);
     setPaginaAtual(1);
   }, [searchParams]);
