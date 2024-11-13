@@ -86,8 +86,33 @@ const Integrantes = styled.div `
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 40px;
-    padding-top: 40px;
-    background-color: #f5f5f5
+    background-color: #f5f5f5;
+
+    h3 {
+        font-weight: normal;
+        margin-bottom: 20px;
+        font-size: 32px;
+        padding-top: 40px;
+    }
+
+    #integrantes{
+        background-color: #CED4DC;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 20px;
+        border-radius: 6px;
+    }
+
+    #integrante {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #dados2 {
+        color: #4A4747
+    }
 
 `
 
