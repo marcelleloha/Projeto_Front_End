@@ -20,7 +20,7 @@ const ParteBranca = (props) => (
           </button>
         
           
-          <button id='botao2' onClick={() => document.getElementById('titulo').scrollIntoView({ behavior: 'smooth' })}>
+          <button id='botao2' onClick={() => document.getElementById('conteudo-azul').scrollIntoView({ behavior: 'smooth' })}>
             Conheça o Projeto
           </button>
 

@@ -1,70 +1,36 @@
 import styled from "styled-components";
 
-<<<<<<< HEAD
-const Div = styled.div`
-  margin-left: 100px;
-  margin-right: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 30px;
-  gap: 5px;
-  padding-bottom: 50px;
-  background-color: #F5F5F5;
-
-  #no-underline {
-    text-decoration: none;
-    color: black;
-  }
-
-  @media (max-width: 1024px) {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  @media (max-width: 768px) {
-    margin-left: 20px;
-    margin-right: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  @media (max-width: 480px) {
-    margin-left: 10px;
-    margin-right: 10px;
-    gap: 10px;
-  }
-`;
-
-export { Div };
-=======
 const Div = styled.div `
-    @media (min-width: 1000px) {
-        
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-bottom: 30px;
-    }
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
-    gap: 5px;
+    gap: 20px;
     padding-bottom: 50px;
     background-color: #F5F5F5;
-
+    
     #no-underline {
-        text-decoration: none;
-        color: black;
+      text-decoration: none;
+      color: black;
     }
-
+    
+    @media (min-width: 1000px) {  
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 30px;
+    }
     @media (min-width: 400px) {
         padding:0;
     }
 
+
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 
 `
@@ -96,7 +62,7 @@ const Container2 = styled.div `
         margin-left: 5px;
         width: 100%;
     }
-    @media (max-width: 400px) {
+    @media (max-width: 1000px) {
         padding: 0;
         display: flex;
         justify-content: center;
@@ -104,24 +70,24 @@ const Container2 = styled.div `
             display: flex;
             flex-direction: column;
             justify-content: center;
-        }
-        #parteBaixo{
-            display: flex;
-            justify-content: center;
             align-items: center;
-            gap: 10px;
+            gap: 10px
         }
         #inputWraper {
             width: 200px;
         }
     }
+
 `
 const Container = styled.div `
+  @media (min-width: 1000px) {
+    padding-left: 100px;
+    padding-right: 100px;
+    
+  }
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    padding-left: 100px;
-    padding-right: 100px;
     flex-wrap: wrap;
     gap: 10px;
     padding-top: 30px;
@@ -134,6 +100,24 @@ const Container = styled.div `
     }
 
     .limpar-filtros{
+      border: none;
+      background-color: rgb(245, 172, 0);
+      border-radius: 7px;
+      padding-left: 10px;
+      padding-right: 10px;
+      min-height: 38px;
+      cursor: pointer;
+      width: 30%;
+    }
+    .limpar-filtros:hover{
+        background-color: #ffffff;
+
+    }
+    @media (max-width: 768px) {
+      padding: 10px 10px;
+      flex-direction: column;
+      align-items: center;
+      .limpar-filtros{
         border: none;
         background-color: rgb(245, 172, 0);
         border-radius: 7px;
@@ -143,9 +127,6 @@ const Container = styled.div `
         cursor: pointer;
         width: 30%;
     }
-    .limpar-filtros:hover{
-        background-color: #ffffff;
-
     }
 
 `
@@ -178,4 +159,4 @@ const Container3 = styled.div `
 `
 
 export { Div, Container2, Container,Container3 }
->>>>>>> main
+

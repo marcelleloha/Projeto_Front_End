@@ -2,10 +2,7 @@ import styled from "styled-components";
 
 const TopPart = styled.header`
   background-color: #F5F5F5;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+
 
   #topnav {
     margin-top: 20px;
@@ -89,65 +86,59 @@ const TopPart = styled.header`
     background-color: #002555;
   }
 
-  @media (max-width: 1024px) {
-    padding-left: 50px;
-    padding-right: 50px;
-
-    #tituloreal {
-      font-size: 42px;
-    }
-
-    #texto {
-      width: 350px;
-      font-size: 16px;
-    }
-
-    img {
-      height: 500px;
-    }
+  @media (min-width: 1000px) {
+    padding: 70px 100px;
   }
-
-  @media (max-width: 768px) {
-    padding-left: 20px;
-    padding-right: 20px;
-
+  @media (max-width: 1000px) {
+    padding: 50px 50px;
     #Hero {
+      display: flex;
       flex-direction: column;
+      
     }
-
     #HeroEsquerda {
-      width: 100%;
+      padding-bottom: 20px
     }
-
+    #titulo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #tituloreal{
+      font-size: 30px;
+      text-align: center;
+    }
     #texto {
-      width: 100%;
-      font-size: 14px;
+      text-align: center;
     }
-
     img {
-      height: 400px;
+      height: 350px
     }
   }
-
-  @media (max-width: 480px) {
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-    #tituloreal {
-      font-size: 32px;
-    }
-
-    #texto {
-      font-size: 12px;
-    }
-
-    #botoes {
+  @media (max-width: 768px) {
+    padding: 50px 50px;
+    #Hero {
+      display: flex;
       flex-direction: column;
-      gap: 20px;
+      
     }
-
+    #HeroEsquerda {
+      padding-bottom: 20px
+    }
+    #titulo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #tituloreal{
+      font-size: 30px;
+      text-align: center;
+    }
+    #texto {
+      text-align: center;
+    }
     img {
-      height: 250px;
+      height: 350px
     }
   }
 `;
@@ -183,8 +174,7 @@ const Azul = styled.header`
   }
 
   @media (max-width: 768px) {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 40px;
 
     #titulo {
       font-size: 36px;
@@ -192,6 +182,7 @@ const Azul = styled.header`
 
     #conteudo-azul {
       flex-direction: column;
+      font-size: 15px;
     }
 
     #imagemProjeto {
@@ -244,7 +235,7 @@ const Terceiro = styled.header`
       height: auto;
       padding-top: 5px;
     }
-
+  }
 `;
 
 export { TopPart, Azul, Terceiro };
