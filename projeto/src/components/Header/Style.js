@@ -36,12 +36,11 @@ const Top = styled.header`
     }
   }
 
-  @media (max-width: 1000px) and (min-width: 600px) {
-    padding-left: 50px;
-    padding-right: 50px;
+  
+  @media (max-width: 420px) {
 
-    a {
-      font-size: 13px;
+    img {
+      width: 70px
     }
 
     img {
@@ -58,11 +57,10 @@ const Top = styled.header`
       justify-content: space-between;
       align-items: center;
     }
-
     #navegacao {
       display: none; 
     }
-
+  
     #menu-hamburger {
       display: block; 
     }

@@ -8,7 +8,7 @@ const Container = styled.div`
     display: flex;
     margin: 10px;
     padding: 15px 15px;
-    height: 380px;
+    height: auto;
 
     .titulo-cima {
         font-weight: bold;
@@ -56,8 +56,8 @@ const Container = styled.div`
         font-size: 16px;
         width: 100%;
         border-radius: 6px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding: 5px 0;
+        cursor: pointer;
     }
 
     .class-botao {
@@ -68,6 +68,7 @@ const Container = styled.div`
     .titulo {
         height: 50px;
     }
+
 
     /* Media Query para telas médias */
     @media (max-width: 768px) {
@@ -133,4 +134,8 @@ const Container = styled.div`
     }
 `;
 
-export { Container };
+
+
+
+export { Container }
+
