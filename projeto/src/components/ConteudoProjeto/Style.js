@@ -1,16 +1,17 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-const ContainerFiltros = styled.div `
+const ContainerFiltros = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
     flex-wrap: wrap;
     gap: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    .filtro{
+
+    .filtro {
         background-color: #D9D9D9;
         font-size: 16px;
         width: 114px;
@@ -24,12 +25,20 @@ const ContainerFiltros = styled.div `
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
-`
-const ContainerDescricao = styled.div `
+    @media (max-width: 768px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
+    @media (max-width: 480px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+`;
+
+const ContainerDescricao = styled.div`
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 30px;
@@ -37,18 +46,42 @@ const ContainerDescricao = styled.div `
     h2 {
         font-size: 48px;
     }
-    .corpo{
+
+    .corpo {
         padding-top: 20px;
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
     }
+
     .paragrafo {
         width: 50%;
     }
+
     .imagem {
-        width: 45%
+        width: 45%;
     }
 
-`
+    @media (max-width: 768px) {
+        padding-left: 20px;
+        padding-right: 20px;
 
-export {ContainerFiltros, ContainerDescricao} 
+        .paragrafo, .imagem {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        padding-left: 10px;
+        padding-right: 10px;
+
+        h2 {
+            font-size: 36px;
+        }
+
+        .paragrafo, .imagem {
+            width: 100%;
+        }
+    }
+`;
+
+export { ContainerFiltros, ContainerDescricao };

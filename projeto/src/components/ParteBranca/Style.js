@@ -213,6 +213,37 @@ const Terceiro = styled.header`
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  #imagemTime {
+    width: 100%;
+    height: auto;
+    max-width: 1074px;
+    max-height: 653px;
+  }
+
+  @media (max-width: 1024px) {
+    #imagemTime {
+      max-width: 90%;
+      max-height: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    #imagemTime {
+      max-width: 85%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #imagemTime {
+      max-width: 100%;
+      height: auto;
+      padding-top: 5px;
+    }
 `;
 
 export { TopPart, Azul, Terceiro };
