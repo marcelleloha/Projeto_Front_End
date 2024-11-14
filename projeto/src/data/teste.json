@@ -1,0 +1,54 @@
+[
+{
+    "id": 1,
+    "titulo": "Front-end Saas Ui Website",
+    "texto": "Descrição do Projeto 1",
+    "imagem": "imagens/projeto1.png",
+    "tecnologias": "React Js, TailwindCss",
+    "unidade": "Rio-Barra",
+    "periodo": "2024.2",
+    "data": "24/09/2024",
+    "dec": "Projeto desenvolvido para simular uma plataforma de software as a service.",
+    "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
+    "integrantes": [
+      {
+        "nome": "Arthur Schiller",
+        "email": "Arthur Schiller@example.com",
+        "curso": "Engenharia de Software",
+        "periodo": "2024.1"
+      },
+      {
+        "nome": "Paula",
+        "email": "paula@example.com",
+        "curso": "Ciência da Computação",
+        "periodo": "2024.1"
+      },
+      {
+        "nome": "Ricardo",
+        "email": "ricardo@example.com",
+        "curso": "Sistemas de Informação",
+        "periodo": "2024.1"
+      }
+    ],
+    "professores": [
+      {
+        "nome": "Eduardo Mangelli",
+        "email": "Eduardo@example.com",
+        "curso": "Front-end",
+        "periodo": "2024.2"
+      },
+      {
+        "nome": "Victor",
+        "email": "Victor@example.com",
+        "curso": "Design",
+        "periodo": "2024.2"
+      }
+    ]
+  }
+]

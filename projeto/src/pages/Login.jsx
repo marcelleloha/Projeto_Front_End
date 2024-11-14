@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { redirect, useNavigate } from "react-router-dom";
-import { auth } from "../config/Firebase";
+// import { auth } from "../config/Firebase";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import Base from "./Base";
 import { Container } from "./PagesStyles/Style";
@@ -11,15 +11,15 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
-  const handleLogin = async (event) => {
-    event.preventDefault();
-    try {
-      await signInWithEmailAndPassword(auth, email, password);
-      navigate('/');
-    } catch (error) {
-      alert(error.message);
-    }
-  };
+  // const handleLogin = async (event) => {
+  //   event.preventDefault();
+  //   try {
+  //     await signInWithEmailAndPassword(auth, email, password);
+  //     navigate('/');
+  //   } catch (error) {
+  //     alert(error.message);
+  //   }
+  // };
 
   return (
     <>
