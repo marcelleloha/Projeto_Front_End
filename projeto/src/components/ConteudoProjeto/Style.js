@@ -1,16 +1,17 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-const ContainerFiltros = styled.div `
+const ContainerFiltros = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-around;
     padding-left: 100px;
     padding-right: 100px;
     flex-wrap: wrap;
     gap: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    .filtro{
+
+    .filtro {
         background-color: #D9D9D9;
         font-size: 16px;
         width: 114px;
@@ -24,36 +25,73 @@ const ContainerFiltros = styled.div `
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
-`
-const ContainerDescricao = styled.div `
+    @media (max-width: 768px) {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
-    padding-left: 100px;
-    padding-right: 100px;
+    @media (max-width: 480px) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+`;
+
+const ContainerDescricao = styled.div`
     padding-bottom: 30px;
-
-    h2 {
-        font-size: 48px;
-    }
-    .corpo{
-        padding-top: 20px;
-        display: flex;
-        justify-content: space-between
-    }
-    .paragrafo {
+    @media (min-width: 1000px) {
+        
+        padding-left: 100px;
+        padding-right: 100px;
+        .corpo {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+        h2 {
+            font-size: 48px;
+        }
+        .paragrafo {
         width: 50%;
+        }
+        .imagem {
+            width: 45%;
+        }
+        
     }
-    .imagem {
-        width: 45%
-    }
+
+    @media (max-width: 1000px) {
+        padding: 0 30px;
+        .corpo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 40px;
+        }
+        h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .paragrafo{
+            width: 100%
+        }
+        img {
+            width: 70%;
+            margin-bottom: 30px
+        }
+    }   
+
+
+
+
 
 `
 const ContainerDeTec = styled.div `
 
-    padding-left: 100px;
-    padding-right: 100px;
+
     padding-bottom: 40px;
     padding-top: 40px;
     background-color: rgb(0, 37, 85);
@@ -80,11 +118,40 @@ const ContainerDeTec = styled.div `
         gap: 20px;
     }
 
+    @media (min-width: 1000px) {
+        padding: 20px 100px;
+
+    }
+
+    @media (max-width: 1000px) {
+        padding: 20px 30px;
+        gap: 20px;
+        #tec1 {
+            font-size: 20px;
+            width: 100%;
+        }
+        #tec2 {
+            font-size: 20px;
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        gap: 20px;
+        #tec1 {
+            font-size: 15px;
+            width: 100%;
+        }
+        #tec2 {
+            font-size: 15px;
+            width: 100%;
+        }
+    }
+
 `
 const Integrantes = styled.div `
 
-    padding-left: 100px;
-    padding-right: 100px;
+
     padding-bottom: 40px;
     background-color: #f5f5f5;
 
@@ -100,6 +167,7 @@ const Integrantes = styled.div `
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        flex-wrap: wrap;
         padding: 10px 20px;
         border-radius: 6px;
     }
@@ -114,6 +182,23 @@ const Integrantes = styled.div `
         color: #4A4747
     }
 
+    @media (min-width: 1000px) {
+        padding: 0 100px;
+        padding-bottom: 40px;
+    }
+    
+    @media (max-width: 1000px) {
+        padding: 0 30px;
+        padding-bottom: 40px;
+    }
+    
+    @media (max-width: 768px) {
+        padding: 0 30px;
+        padding-bottom: 40px;
+        
+    }
+
 `
 
 export {ContainerFiltros, ContainerDescricao, ContainerDeTec, Integrantes} 
+

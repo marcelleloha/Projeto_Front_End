@@ -1,75 +1,115 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-const TopPart = styled.header `
+const TopPart = styled.header`
+  background-color: rgb(0, 37, 85);
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+
+  #titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #tituloreal {
+    font-weight: bold;
+    font-size: 54px;
+  }
+
+  #texto {
+    font-size: 18px;
+    width: 450px;
+    font-weight: lighter;
+  }
+
+  p {
+    color: white;
+  }
+
+  img {
+    width: 50%;
+    height: auto
+
+  }
+
+  
+
+
+  #titulo {
+    width: 50%
+  }
 
   @media (min-width: 1000px) {
-    
-    background-color: rgb(0, 37, 85);
-    padding-left: 100px;
-    padding-right: 100px;
-    height: 500px;
-  
+    padding: 20px 100px;
+
+    #tituloreal {
+      font-size: 42px;
+    }
+
+    #texto {
+      font-size: 16px;
+      width: 350px;
+    }
+    #imagem{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    #titulo {
+    justify-content: end;
+    width: 50%
+  }
+
+
+  }
+
+  @media (max-width: 1000px) {
+    padding: 20px 50px;
+
+
+    #tituloreal {
+      font-size: 36px;
+    }
+
+    #texto {
+      width: 50%;
+      font-size: 20px;
+    }
+
+    #imagem{
       display: flex;
-      flex-direction: column;
-      gap: 10px;
+      justify-content: end;
+      width: 50%
+      }
+      img {
+        width: 50%
+      }
       
     }
-    #tituloreal {
-      font-weight: bold;
-      font-size: 54px;
-    }
-    #texto {
-      font-size: 18px;
-      width: 450px;
-      font-weight: lighter;
-    }
-    p {
-      color: white;
-    }
-    img {
-      position: relative;
-      top: 25px;
-      width: 400px;
-    }
+    
+    @media (max-width: 768px) {
+      padding: 20px 50px;
+      
+      #tituloreal {
+        font-size: 20px;
+      }
+      
+      #texto {
+        font-size: 12px;
+      }
+      
+      #imagem{
+        display: flex;
+        justify-content: end;
+        width: 50%
+      }
+      
+      img {
+        width: 150px
+      }
+
   }
-  
-  @media (max-width:400px) {
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgb(0, 37, 85);
-    padding-top: 20px;
-    text-align: center;
-    #titulo {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      width: fit-content;
-      padding-bottom: 20px;
-    }
-    #texto {
-      font-size: 15px;
-      font-weight: lighter;
-    }
-    #tituloreal {
-      font-weight: bold;
-      font-size: 32px;
-    }
-    p {
-      color: white;
-    }
-    img {
-      text-align: right;
-      width: 200px;
+`;
 
-    }
-  }
-
-
-`
-
-
-export {TopPart}
+export { TopPart };

@@ -1,25 +1,29 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 const Top = styled.header`
+  background-color: #f5f5f5;
+  margin: 0;
+  
+  
+  
   @media (min-width: 1000px) {
     
-    background-color: white;
-    margin: 0;
-    padding-left: 100px;
-    padding-right: 100px;
+
     background-Color: #f5f5f5;
     
     #navbar {
       display: flex;
       justify-content: space-between;
-      
-  
+      padding: 0 100px;
+      align-items: center;
     }
   
     #navegacao {
       display: flex;
+      flex-direction: row;
       justify-content: space-between;
-      width: 400px
+      gap: 50px;
+
     }
   
     a {
@@ -39,30 +43,32 @@ const Top = styled.header`
       display: none;
     }
   }
-  
-  @media (max-width: 420px) {
 
-    img {
-      width: 70px
-    }
+
+  @media (max-width: 1000px) {
+
+
     #navbar {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding-left: 20px;
-      padding-right: 20px;
-  
+      padding: 0 50px;
     }
-    
     #navegacao {
-      display: none; /* Oculta o menu normal */
+      display: none; 
     }
   
     #menu-hamburger {
-      display: block; /* Mostra o menu sanduíche */
+      display: block; 
+    }
+
+    img {
+      width: 50px;
     }
   }
 
-`
 
-export {Top}
+
+`;
+
+export { Top };
