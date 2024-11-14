@@ -147,7 +147,7 @@ const TopPart = styled.header`
     }
 
     img {
-      height: 400px;
+      height: 200px;
     }
 
     #botoes {
@@ -163,15 +163,15 @@ const TopPart = styled.header`
     padding-bottom: 40px;
 
     #tituloreal {
-      font-size: 32px;
+      font-size: 20px;
     }
 
     #texto {
-      font-size: 12px;
+      font-size: 10px;
     }
 
     img {
-      height: 250px;
+      height: 150px;
     }
 
     #botoes {

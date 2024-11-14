@@ -244,6 +244,7 @@ const Terceiro = styled.header`
       height: auto;
       padding-top: 5px;
     }
+
 `;
 
 export { TopPart, Azul, Terceiro };
