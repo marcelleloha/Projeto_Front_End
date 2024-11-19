@@ -8,11 +8,7 @@ const TopPart = styled.header`
   justify-content: space-between;
   align-items: center;
 
-  #topnav {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-  }
+  
 
   #titulo {
     display: flex;
@@ -36,55 +32,20 @@ const TopPart = styled.header`
   }
 
   img {
-    height: 27rem;
-    position: relative;
-    top: 4px;
-  }
-
-  #Hero {
-    display: flex;
-    flex-direction: row;  
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #HeroEsquerda {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    height: auto
+
   }
 
-  #HeroDireita {
-    width: 50%;
+  
+
+
+  #titulo {
+    width: 50%
   }
 
-  #botoes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 20px;
-  }
-
-  button {
-    border-radius: 20px;
-    padding: 10px;
-  }
-
-  #botao1 {
-    background-color: #F5AC00;
-    border: 0;
-  }
-
-  #botao2 {
-    background-color: #F5F5F5;
-    border: 2px solid #F5AC00;
-  }
-
-  @media (max-width: 1024px) {
-    padding-left: 50px;
-    padding-right: 50px;
+  @media (min-width: 1000px) {
+    padding: 20px 100px;
 
     #tituloreal {
       font-size: 42px;
@@ -94,91 +55,60 @@ const TopPart = styled.header`
       font-size: 16px;
       width: 350px;
     }
-
-    img {
-      height: 500px;
-    }
-
-    #Hero {
-      flex-direction: column;
-    }
-
-    #HeroEsquerda {
-      width: 100%;
-    }
-
-    #HeroDireita {
-      width: 100%;
-      margin-top: 20px;
-    }
-
-    #botoes {
-      flex-direction: column;
-      gap: 20px;
-      width: 100%;
-      margin-top: 20px;
-    }
+    #imagem{
+    display: flex;
+    justify-content: end;
+    width: 50%
   }
 
-  @media (max-width: 768px) {
-    padding-left: 20px;
-    padding-right: 20px;
 
-    #Hero {
-      flex-direction: column;  
-    }
+  }
 
-    #HeroEsquerda {
-      width: 100%;
-    }
+  @media (max-width: 1000px) {
+    padding: 20px 50px;
 
-    #HeroDireita {
-      width: 100%;
-      margin-top: 20px;  
-    }
 
     #tituloreal {
       font-size: 36px;
     }
 
     #texto {
-      width: 100%;
-      font-size: 14px;
-    }
-
-    img {
-      height: 200px;
-    }
-
-    #botoes {
-      flex-direction: column; 
-      gap: 20px; 
-      width: 100%; 
-      margin-top: 20px;  
-    }
-  }
-
-  @media (max-width: 480px) {
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-    #tituloreal {
+      width: 50%;
       font-size: 20px;
     }
 
-    #texto {
-      font-size: 10px;
+    #imagem{
+      display: flex;
+      justify-content: end;
+      width: 50%
+      }
+      img {
+        width: 50%
+      }
+      
     }
+    
+    @media (max-width: 768px) {
+      padding: 20px 50px;
+      
+      #tituloreal {
+        font-size: 20px;
+      }
+      
+      #texto {
+        font-size: 12px;
+      }
+      
+      #imagem{
+        display: flex;
+        justify-content: end;
+        width: 50%
+      }
+      
+      img {
+        width: 150px
+      }
 
-    img {
-      height: 150px;
-    }
-
-    #botoes {
-      flex-direction: column;
-      gap: 20px;
-      width: 100%;
-    }
   }
 `;
 

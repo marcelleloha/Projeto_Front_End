@@ -39,6 +39,9 @@ possam observa-los de forma atrativa.
 # Link Apresentação do Projeto:
 - [Apresentação](https://www.canva.com/design/DAGRthlVS6w/_PT8B5t7nsu8qJxuEg6TvA/edit?utm_content=DAGRthlVS6w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+# Link Protótipo Figma:
+- [Protótipo](https://www.figma.com/design/wtkU2l2p6mMXJCyPGNTJvz/Projeto-front)
+
     
 
 
