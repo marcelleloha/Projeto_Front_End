@@ -205,7 +205,7 @@
     "periodo": "2023.2",
     "data": "28/07/2023",
     "dec": "Dashboard interativo para análise e visualização de dados em tempo real.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria de impressão e composição. Ele tem sido o texto padrão da indústria gráfica e tipográfica desde o século 16.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
     "Tec1": "Reactc Js",
     "Tec2": "TailwindCss",
     "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
@@ -245,7 +245,13 @@
     "periodo": "2023.1",
     "data": "15/05/2023",
     "dec": "Plataforma para cursos online com gerenciamento de usuários, trilhas de aprendizado e certificados.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria de impressão e composição. Lorem Ipsum tem sido o texto padrão da indústria gráfica desde o século 16.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Júlia",
@@ -285,7 +291,13 @@
     "periodo": "2024.2",
     "data": "18/10/2024",
     "dec": "Desenvolvimento de um portfólio pessoal para destacar habilidades e projetos.",
-    "paragrafo": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes":[
       {
         "nome": "Mariana",
@@ -325,7 +337,13 @@
     "periodo": "2024.2",
     "data": "24/09/2024",
     "dec": "Criação de um blog pessoal com integração com redes sociais e painel de administração.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão da indústria desde o século 16.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Felipe",
@@ -359,7 +377,13 @@
     "periodo": "2024.1",
     "data": "24/09/2024",
     "dec": "Aplicativo para previsão do tempo com integração à API OpenWeather.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Rafael",
@@ -393,7 +417,13 @@
     "periodo": "2024.1",
     "data": "24/09/2024",
     "dec": "Plataforma de delivery de alimentos com sistema de pedidos e pagamento.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Maria",
@@ -433,7 +463,13 @@
     "periodo": "2024.2",
     "data": "24/09/2024",
     "dec": "Aplicativo para monitoramento de saúde com alertas para atividades físicas e alimentação.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Renata",
@@ -467,7 +503,13 @@
     "periodo": "2023.2",
     "data": "24/09/2024",
     "dec": "Portal de notícias com integração em tempo real de dados através de APIs.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Juliana",
@@ -501,7 +543,13 @@
     "periodo": "2023.2",
     "data": "24/09/2024",
     "dec": "Sistema de votação online seguro com autenticação e criptografia.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Eduardo",
@@ -535,7 +583,13 @@
     "periodo": "2024.1",
     "data": "24/09/2024",
     "dec": "Sistema para gerenciamento de eventos com integração de pagamento.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Carlos",
@@ -569,7 +623,13 @@
     "periodo": "2024.1",
     "data": "24/09/2024",
     "dec": "Chatbot de atendimento ao cliente para responder perguntas frequentes.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "André",
@@ -603,7 +663,13 @@
     "periodo": "2024.1",
     "data": "24/09/2024",
     "dec": "Aplicativo para gerenciamento de tarefas pessoais com notificações.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Vinícius",
@@ -637,7 +703,13 @@
     "periodo": "2024.2",
     "data": "24/09/2024",
     "dec": "Plataforma de e-commerce para venda de roupas e acessórios.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Larissa",
@@ -671,7 +743,13 @@
     "periodo": "2024.2",
     "data": "24/09/2024",
     "dec": "Sistema completo para a gestão de alunos, turmas e notas em escolas.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Ricardo",
@@ -705,7 +783,13 @@
     "periodo": "2023.2",
     "data": "17/10/2023",
     "dec": "Aplicativo para controle de finanças pessoais e investimentos.",
-    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
+    "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica. Ele tem sido o texto padrão desde o século 16, quando um impressor desconhecido pegou uma galeria de tipos e os misturou para fazer um livro de amostras de tipos. Ele sobreviveu não apenas cinco séculos, mas também o salto para a composição eletrônica, permanecendo essencialmente inalterado. Ele foi popularizado nos anos 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e mais recentemente com o software de desktop como Aldus PageMaker incluindo versões de Lorem Ipsum.",
+    "Tec1": "Reactc Js",
+    "Tec2": "TailwindCss",
+    "Tecdec1": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecdec2": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but ",
+    "Tecimg1": "imagens/reactjs.png",
+    "Tecimg2": "imagens/tailwind.png",
     "integrantes": [
       {
         "nome": "Juliano",
