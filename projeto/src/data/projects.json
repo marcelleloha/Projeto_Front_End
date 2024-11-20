@@ -203,7 +203,7 @@
     "tecnologias": "Python, Dash, Pandas",
     "unidade": "DF",
     "periodo": "2023.2",
-    "data": "24/09/2023",
+    "data": "28/07/2023",
     "dec": "Dashboard interativo para análise e visualização de dados em tempo real.",
     "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria de impressão e composição. Ele tem sido o texto padrão da indústria gráfica e tipográfica desde o século 16.",
     "Tec1": "Reactc Js",
@@ -219,13 +219,27 @@
         "curso": "Análise de Dados",
         "periodo": "2023.2"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Tiago",
+        "email": "tiago@example.com",
+        "curso": "Engenharia de Software",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Mateus",
+        "email": "mateus@example.com",
+        "curso": "Estrutura de Dados",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 6,
     "titulo": "Plataforma de Educação Online",
     "texto": "Descrição do Projeto 6",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto3.png",
     "tecnologias": "Vue.js, Firebase",
     "unidade": "Rio-Barra",
     "periodo": "2023.1",
@@ -245,13 +259,27 @@
         "curso": "Sistemas de Informação",
         "periodo": "2023.1"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Mateus",
+        "email": "mateus@example.com",
+        "curso": "Estrutura de Dados",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Eduardo Mangelli",
+        "email": "Eduardo@example.com",
+        "curso": "Desenvolvimento Web",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 7,
     "titulo": "Sistema de Controle Financeiro",
     "texto": "Descrição do Projeto 7",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto2.png",
     "tecnologias": "React, Node.js, MongoDB",
     "unidade": "Belo Horizonte",
     "periodo": "2024.2",
@@ -264,6 +292,26 @@
         "email": "mariana@example.com",
         "curso": "Engenharia de Software",
         "periodo": "2024.2"
+      },
+      {
+        "nome": "Tiago Macedo",
+        "email": "tiagomacedo@example.com",
+        "curso": "Ciências de Dados e IA",
+        "periodo": "2024.2"
+      }
+    ],
+    "professores": [
+      {
+        "nome": "Lucas",
+        "email": "lucas@example.com",
+        "curso": "Macroeconomia 1",
+        "periodo": "2024.2"
+      },
+      {
+        "nome": "Fernando",
+        "email": "fernando@example.com",
+        "curso": "Econometria",
+        "periodo": "2024.2"
       }
     ]
   },
@@ -271,7 +319,7 @@
     "id": 8,
     "titulo": "Blog Pessoal",
     "texto": "Descrição do Projeto 8",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto1.png",
     "tecnologias": "WordPress, PHP, MySQL",
     "unidade": "São Paulo",
     "periodo": "2024.2",
@@ -285,13 +333,27 @@
         "curso": "Tecnologia da Informação",
         "periodo": "2024.2"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
+      }
     ]
   }, 
   {
     "id": 9,
     "titulo": "Aplicativo de Clima",
     "texto": "Descrição do Projeto 9",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto1.png",
     "tecnologias": "React Native, OpenWeather API",
     "unidade": "Porto Alegre",
     "periodo": "2024.1",
@@ -305,13 +367,27 @@
         "curso": "Tecnologia da Informação",
         "periodo": "2024.1"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 10,
     "titulo": "Plataforma de Delivery",
     "texto": "Descrição do Projeto 10",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto2.png",
     "tecnologias": "Node.js, React, MongoDB",
     "unidade": "São Paulo",
     "periodo": "2024.1",
@@ -325,13 +401,27 @@
         "curso": "Sistemas de Informação",
         "periodo": "2024.1"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 11,
     "titulo": "Aplicativo de Saúde e Bem-Estar",
     "texto": "Descrição do Projeto 11",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto3.png",
     "tecnologias": "Flutter, Firebase",
     "unidade": "Rio-Centro",
     "periodo": "2024.2",
@@ -344,6 +434,20 @@
         "email": "renata@example.com",
         "curso": "Engenharia da Computação",
         "periodo": "2024.2"
+      }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
       }
     ]
   },
@@ -365,6 +469,20 @@
         "curso": "Jornalismo",
         "periodo": "2023.2"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
@@ -385,13 +503,27 @@
         "curso": "Sistemas de Informação",
         "periodo": "2023.2"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 14,
     "titulo": "Sistema de Gerenciamento de Eventos",
     "texto": "Descrição do Projeto 14",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto3.png",
     "tecnologias": "Ruby on Rails, PostgreSQL",
     "unidade": "Rio-Barra",
     "periodo": "2024.1",
@@ -405,13 +537,27 @@
         "curso": "Engenharia de Software",
         "periodo": "2024.1"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 15,
     "titulo": "Chatbot de Atendimento",
     "texto": "Descrição do Projeto 15",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto2.png",
     "tecnologias": "Python, Flask, NLTK",
     "unidade": "Rio-Centro",
     "periodo": "2024.1",
@@ -425,13 +571,27 @@
         "curso": "Ciência da Computação",
         "periodo": "2024.1"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael",
+        "email": "rafael@example.com",
+        "curso": "Engenharia de Dados",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Pedro",
+        "email": "pedro@example.com",
+        "curso": "Analise de Dados",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 16,
     "titulo": "App de Controle de Tarefas",
     "texto": "Descrição do Projeto 16",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto1.png",
     "tecnologias": "React, Firebase",
     "unidade": "Belo Horizonte",
     "periodo": "2024.1",
@@ -445,13 +605,27 @@
         "curso": "Sistemas de Informação",
         "periodo": "2024.1"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 17,
     "titulo": "E-commerce de Moda",
     "texto": "Descrição do Projeto 17",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto1.png",
     "tecnologias": "Vue.js, Node.js, MongoDB",
     "unidade": "São Paulo",
     "periodo": "2024.2",
@@ -465,13 +639,27 @@
         "curso": "Design de Moda",
         "periodo": "2024.2"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Rafael Studart",
+        "email": "studart@example.com",
+        "curso": "Pensamento Computacional",
+        "periodo": "2023.1"
+      },
+      {
+        "nome": "Cassius",
+        "email": "cassius@example.com",
+        "curso": "Programação Estruturada",
+        "periodo": "2023.1"
+      }
     ]
   },
   {
     "id": 18,
     "titulo": "Sistema de Gestão Escolar",
     "texto": "Descrição do Projeto 18",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto2.png",
     "tecnologias": "Angular, Spring Boot",
     "unidade": "Porto Alegre",
     "periodo": "2024.2",
@@ -485,17 +673,31 @@
         "curso": "Engenharia da Computação",
         "periodo": "2024.2"
       }
+    ],
+    "professores": [
+      {
+        "nome": "Marcos",
+        "email": "marcos@example.com",
+        "curso": "Power BI",
+        "periodo": "2024.2"
+      },
+      {
+        "nome": "João",
+        "email": "joao@exemplo.com",
+        "curso": "Back-End",
+        "periodo": "2024.2"
+      }
     ]
   },
   {
     "id": 19,
     "titulo": "Aplicativo de Finanças Pessoais",
     "texto": "Descrição do Projeto 19",
-    "imagem": "imagens/projeto4.png",
+    "imagem": "imagens/projeto3.png",
     "tecnologias": "Swift, Core Data",
     "unidade": "Rio-Barra",
     "periodo": "2023.2",
-    "data": "24/09/2024",
+    "data": "17/10/2023",
     "dec": "Aplicativo para controle de finanças pessoais e investimentos.",
     "paragrafo": "Lorem Ipsum é simplesmente texto de preenchimento da indústria gráfica e tipográfica.",
     "integrantes": [
@@ -503,6 +705,20 @@
         "nome": "Juliano",
         "email": "juliano@example.com",
         "curso": "Tecnologia da Informação",
+        "periodo": "2023.2"
+      }
+    ],
+    "professores": [
+      {
+        "nome": "Patricia",
+        "email": "patricia@example.com",
+        "curso": "Calculo a multiplas variáveis",
+        "periodo": "2023.2"
+      },
+      {
+        "nome": "Juliano",
+        "email": "juliano@example.com",
+        "curso": "Modelagem",
         "periodo": "2023.2"
       }
     ]
