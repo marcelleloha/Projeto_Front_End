@@ -342,9 +342,9 @@
         "periodo": "2023.1"
       },
       {
-        "nome": "Cassius",
-        "email": "cassius@example.com",
-        "curso": "Programação Estruturada",
+        "nome": "Luan",
+        "email": "luan@example.com",
+        "curso": "Inovação e DT",
         "periodo": "2023.1"
       }
     ]
@@ -370,15 +370,15 @@
     ],
     "professores": [
       {
-        "nome": "Rafael Studart",
-        "email": "studart@example.com",
-        "curso": "Pensamento Computacional",
-        "periodo": "2023.1"
+        "nome": "Paulo",
+        "email": "paulo@example.com",
+        "curso": "Analise e Projeto de Sistemas",
+        "periodo": "2024.1"
       },
       {
-        "nome": "Cassius",
-        "email": "cassius@example.com",
-        "curso": "Programação Estruturada",
+        "nome": "Anderson",
+        "email": "anderson@example.com",
+        "curso": " Business Intelligence",
         "periodo": "2023.1"
       }
     ]
@@ -400,20 +400,26 @@
         "email": "maria@example.com",
         "curso": "Sistemas de Informação",
         "periodo": "2024.1"
+      },
+      {
+        "nome": "Gustavo",
+        "email": "gustavo@example.com",
+        "curso": "Economia",
+        "periodo": "2024.1"
       }
     ],
     "professores": [
       {
-        "nome": "Rafael Studart",
-        "email": "studart@example.com",
-        "curso": "Pensamento Computacional",
-        "periodo": "2023.1"
+        "nome": "Paulo",
+        "email": "paulo@example.com",
+        "curso": "Analise e Projeto de Sistemas",
+        "periodo": "2024.1"
       },
       {
         "nome": "Cassius",
         "email": "cassius@example.com",
         "curso": "Programação Estruturada",
-        "periodo": "2023.1"
+        "periodo": "2024.1"
       }
     ]
   },
@@ -438,16 +444,16 @@
     ],
     "professores": [
       {
-        "nome": "Rafael Studart",
-        "email": "studart@example.com",
-        "curso": "Pensamento Computacional",
-        "periodo": "2023.1"
+        "nome": "Mariana Silva",
+        "email": "mariana@example.com",
+        "curso": "Redes de Computadores",
+        "periodo": "2024.2"
       },
       {
-        "nome": "Cassius",
-        "email": "cassius@example.com",
-        "curso": "Programação Estruturada",
-        "periodo": "2023.1"
+        "nome": "Felipe Costa",
+        "email": "felipe@example.com",
+        "curso": "Engenharia de Software",
+        "periodo": "2024.2"
       }
     ]
   },
@@ -472,16 +478,16 @@
     ],
     "professores": [
       {
-        "nome": "Rafael Studart",
-        "email": "studart@example.com",
-        "curso": "Pensamento Computacional",
-        "periodo": "2023.1"
+        "nome": "Ana Moreira",
+        "email": "ana@example.com",
+        "curso": "Desenvolvimento Web",
+        "periodo": "2023.2"
       },
       {
-        "nome": "Cassius",
-        "email": "cassius@example.com",
-        "curso": "Programação Estruturada",
-        "periodo": "2023.1"
+        "nome": "Lucas Almeida",
+        "email": "lucas@example.com",
+        "curso": "Integração de APIs",
+        "periodo": "2023.2"
       }
     ]
   },
@@ -506,16 +512,16 @@
     ],
     "professores": [
       {
-        "nome": "Rafael Studart",
-        "email": "studart@example.com",
-        "curso": "Pensamento Computacional",
-        "periodo": "2023.1"
+        "nome": "Gabriel Souza",
+        "email": "gabriel@example.com",
+        "curso": "Segurança da Informação",
+        "periodo": "2023.2"
       },
       {
-        "nome": "Cassius",
-        "email": "cassius@example.com",
-        "curso": "Programação Estruturada",
-        "periodo": "2023.1"
+        "nome": "Paula Fernandes",
+        "email": "paula@example.com",
+        "curso": "Criptografia Aplicada",
+        "periodo": "2023.2"
       }
     ]
   },
@@ -540,16 +546,16 @@
     ],
     "professores": [
       {
-        "nome": "Rafael Studart",
-        "email": "studart@example.com",
-        "curso": "Pensamento Computacional",
-        "periodo": "2023.1"
+        "nome": "Fernanda Lima",
+        "email": "fernanda@example.com",
+        "curso": "Banco de Dados",
+        "periodo": "2024.1"
       },
       {
-        "nome": "Cassius",
-        "email": "cassius@example.com",
-        "curso": "Programação Estruturada",
-        "periodo": "2023.1"
+        "nome": "Roberto Nunes",
+        "email": "roberto@example.com",
+        "curso": "Gerenciamento de Projetos",
+        "periodo": "2024.1"
       }
     ]
   },
@@ -574,16 +580,16 @@
     ],
     "professores": [
       {
-        "nome": "Rafael",
-        "email": "rafael@example.com",
-        "curso": "Engenharia de Dados",
-        "periodo": "2023.1"
+        "nome": "Beatriz Oliveira",
+        "email": "beatriz@example.com",
+        "curso": "Inteligência Artificial",
+        "periodo": "2024.1"
       },
       {
-        "nome": "Pedro",
-        "email": "pedro@example.com",
-        "curso": "Analise de Dados",
-        "periodo": "2023.1"
+        "nome": "Carlos Mendes",
+        "email": "carlos.m@example.com",
+        "curso": "Análise de Dados",
+        "periodo": "2024.1"
       }
     ]
   },
@@ -608,16 +614,16 @@
     ],
     "professores": [
       {
-        "nome": "Rafael Studart",
-        "email": "studart@example.com",
-        "curso": "Pensamento Computacional",
-        "periodo": "2023.1"
+        "nome": "Thiago Rocha",
+        "email": "thiago@example.com",
+        "curso": "Desenvolvimento Mobile",
+        "periodo": "2024.1"
       },
       {
-        "nome": "Cassius",
-        "email": "cassius@example.com",
-        "curso": "Programação Estruturada",
-        "periodo": "2023.1"
+        "nome": "Isabela Martins",
+        "email": "isabela@example.com",
+        "curso": "UX/UI Design",
+        "periodo": "2024.1"
       }
     ]
   },
@@ -648,9 +654,9 @@
         "periodo": "2023.1"
       },
       {
-        "nome": "Cassius",
-        "email": "cassius@example.com",
-        "curso": "Programação Estruturada",
+        "nome": "Roberto",
+        "email": "roberto@example.com",
+        "curso": "Gestão de Projetos",
         "periodo": "2023.1"
       }
     ]
