@@ -45,6 +45,9 @@ possam observa-los de forma atrativa.
 # Link Notion:
 - [Notion](https://www.notion.so/13e0936f700380e6a8e2caef398ee1bf?v=fcf71c96751b4c71ab331dafce89ee97)
 
+# Link público projeto:
+- [Github pages](https://marcelleloha.github.io/Projeto_Front_End/)
+
     
 
 
