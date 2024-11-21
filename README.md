@@ -42,6 +42,9 @@ possam observa-los de forma atrativa.
 # Link Protótipo Figma:
 - [Protótipo](https://www.figma.com/design/wtkU2l2p6mMXJCyPGNTJvz/Projeto-front)
 
+# Link Notion:
+- [Notion](https://www.notion.so/13e0936f700380e6a8e2caef398ee1bf?v=fcf71c96751b4c71ab331dafce89ee97)
+
     
 
 
